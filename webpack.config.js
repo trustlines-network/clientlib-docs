@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
     entry: ['./ts/index.tsx'],
     output: {
-        path: path.join(__dirname, '/public'),
+        path: path.join(__dirname, '/docs'),
         filename: 'bundle.js',
         chunkFilename: 'bundle-[name].js',
         publicPath: '/',
@@ -68,7 +68,7 @@ module.exports = {
                 },
             ],
         },
-        contentBase: path.join(__dirname, '/public'),
+        contentBase: path.join(__dirname, '/docs'),
     },
     plugins:
         process.env.NODE_ENV === 'production'
