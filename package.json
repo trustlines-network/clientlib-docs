@@ -7,9 +7,9 @@
   "scripts": {
       "lint": "tslint --project .",
       "build": "tsc",
-      "build:example": "NODE_ENV=production webpack",
+      "build:prod": "NODE_ENV=production webpack",
       "watch": "tsc -w",
-      "clean": "shx rm -rf lib; shx rm -f public/bundle*",
+      "clean": "shx rm -rf lib; shx rm -f docs/bundle*",
       "dev": "webpack-dev-server --open"
   },
   "author": "Dong-Ha Kim",
