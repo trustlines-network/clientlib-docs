@@ -22,20 +22,28 @@ const docSections = {
     introduction: 'introduction',
     installation: 'installation',
     tlNetwork: 'tlNetwork',
+    user: 'user',
+    currencyNetwork: 'currencyNetwork',
     trustline: 'trustline',
+    payment: 'payment',
+    event: 'event',
     typings: constants.TYPES_SECTION_NAME,
 };
 
 const docsInfoConfig: DocsInfoConfig = {
     id: 'trustlines-network',
     type: SupportedDocJson.TypeDoc,
-    displayName: 'Web3 Wrapper',
+    displayName: 'Trustline Network',
     packageUrl: 'https://github.com/trustlines-network/clientlib',
     menu: {
         introduction: [docSections.introduction],
         installation: [docSections.installation],
         tlNetwork: [docSections.tlNetwork],
+        user: [docSections.user],
+        currencyNetwork: [docSections.currencyNetwork],
         trustline: [docSections.trustline],
+        payment: [docSections.payment],
+        event: [docSections.event],
         types: [docSections.typings],
     },
     sectionNameToMarkdown: {
@@ -44,7 +52,11 @@ const docsInfoConfig: DocsInfoConfig = {
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
+        [docSections.user]: ['"User"'],
+        [docSections.currencyNetwork]: ['"CurrencyNetwork"'],
         [docSections.trustline]: ['"Trustline"'],
+        [docSections.payment]: ['"Payment"'],
+        [docSections.event]: ['"Event"'],
         [docSections.typings]: ['"typings"'],
     },
     menuSubsectionToVersionWhenIntroduced: {},
@@ -56,8 +68,26 @@ const docsInfoConfig: DocsInfoConfig = {
         // Note: This needs to be kept in sync with the types exported in index.ts. Unfortunately there is
         // currently no way to extract the re-exported types from index.ts via TypeDoc :(
         publicTypes: [
-            'TLEvent',
+            // General
             'TLNetworkConfig',
+            'TLEvent',
+            'Amount',
+            'TLOptions',
+            'TxObject',
+            'EventFilterOptions',
+            // User
+            'UserObject',
+            // Currency Network
+            'Network',
+            'NetworkDetails',
+            'UserOverview',
+            // Trustline
+            'TrustlineObject',
+            // Payment
+            'Payment',
+            'TLTxObject',
+            'PathObject',
+            'PaymentOptions',
         ],
         typeNameToExternalLink: {
             Web3: 'https://github.com/ethereum/wiki/wiki/JavaScript-API',
@@ -69,7 +99,11 @@ const docsInfoConfig: DocsInfoConfig = {
         },
         typeNameToDocSection: {
             TLNetwork: docSections.tlNetwork,
+            User: docSections.user,
+            CurrencyNetwork: docSections.currencyNetwork,
             Trustline: docSections.trustline,
+            Payment: docSections.payment,
+            Event: docSections.event,
         },
     },
 };
