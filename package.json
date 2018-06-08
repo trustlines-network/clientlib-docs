@@ -10,8 +10,7 @@
         "build:prod": "NODE_ENV=production webpack",
         "watch": "tsc -w",
         "clean": "shx rm -rf lib; shx rm -f docs/bundle*",
-        "dev": "webpack-dev-server --open",
-        "doc": "./node_modules/typedoc/bin/typedoc --sourcefile-url-prefix 'https://github.com/trustlines-network/clientlib/develop' --options tdconfig.json"
+        "dev": "webpack-dev-server --open"
     },
     "author": "Dong-Ha Kim",
     "bugs": {
@@ -42,8 +41,6 @@
         "source-map-loader": "^0.2.3",
         "style-loader": "^0.20.2",
         "tslint": "^5.9.1",
-        "typedoc": "^0.11.1",
-        "typedoc-plugin-sourcefile-url": "^1.0.3",
         "typescript": "2.7.1",
         "webpack": "^3.11.0",
         "webpack-dev-server": "^2.11.1"

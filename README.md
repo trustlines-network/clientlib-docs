@@ -8,12 +8,6 @@ Repository of the [documentation page]() of the trustlines-network clientlib Jav
 yarn install
 ```
 
-### Create typedoc json from current develop branch
-
-```bash
-yarn doc
-```
-
 ### Run dev server
 
 ```bash
