@@ -1,0 +1,7 @@
+{
+  "mode": "modules",
+  "json": "./ts/json/latest.json",
+  "excludePrivate": true,
+  "module": "commonjs",
+  "target": "ES5"
+}
