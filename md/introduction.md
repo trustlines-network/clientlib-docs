@@ -1,1 +1,1 @@
-Welcome to the documentation of the [trustlines-network](https://trustlines.network/) Javascript library.
+Welcome to the [trustlines-network clientlib](https://github.com/trustlines-network/clientlib) documentation! The trustlines-network clientlib is a Javascript library which enables you to interact with the [trustlines-network protocol](https://trustlines.network). At the current stage it provides features such as establishing and managing trustlines, doing trustline and ETH transfers, retrieving information about currency networks and more. 

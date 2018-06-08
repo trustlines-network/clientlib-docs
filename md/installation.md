@@ -34,7 +34,7 @@ import { TLNetwork } from './lib-esm/trustlines-network'
 Use the following configuration to connect to the currently deployed test setup.
 
 
-**NOTE: The smart contracts are deployed on the Kovan testnet. So some Kovan Test ETH is required to interact with the contracts in this setup.**
+**NOTE: The [trustlines-network contracts](https://github.com/trustlines-network/contracts) are deployed on the Kovan testnet. Some Kovan Test ETH is therefore required to interact with the contracts in this setup.**
 
 
 ```javascript
