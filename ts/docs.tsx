@@ -17,10 +17,6 @@ import * as v0TypeDocJson from './json/0.0.1.json';
 const IntroMarkdown = require('md/introduction');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const InstallMarkdown = require('md/installation');
-// tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const GuidesMarkdown = require('md/guides');
-// tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const GuidesMarkdown2 = require('md/guides-2');
 
 const docSections = {
     introduction: 'introduction',
