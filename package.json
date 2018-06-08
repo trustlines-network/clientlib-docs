@@ -11,7 +11,7 @@
         "watch": "tsc -w",
         "clean": "shx rm -rf lib; shx rm -f docs/bundle*",
         "dev": "webpack-dev-server --open",
-        "gh-deploy": "git subtree push --prefix docs origin gh-pages"
+        "deploy": "npm run build:prod && git subtree push --prefix docs origin gh-pages"
     },
     "author": "Dong-Ha Kim",
     "bugs": {
