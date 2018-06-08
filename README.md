@@ -31,3 +31,9 @@ yarn clean
 ```bash
 yarn lint
 ```
+
+### Deploy to gh-pages
+
+```bash
+yarn deploy
+```
