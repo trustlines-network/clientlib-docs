@@ -11,16 +11,19 @@ import {
     TypeDocNode,
 } from '@0xproject/react-docs';
 
-import * as v0TypeDocJson from './json/0.0.1.json';
+import * as v0TypeDocJson from './json/0.1.0.json';
 
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const IntroMarkdown = require('md/introduction');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const InstallMarkdown = require('md/installation');
+// tslint:disable-next-line:no-implicit-dependencies no-var-requires
+const AsyncMarkdown = require('md/async');
 
 const docSections = {
     introduction: 'introduction',
     installation: 'installation',
+    async: 'async',
     tlNetwork: 'tlNetwork',
     user: 'user',
     currencyNetwork: 'currencyNetwork',
@@ -38,6 +41,7 @@ const docsInfoConfig: DocsInfoConfig = {
     menu: {
         introduction: [docSections.introduction],
         installation: [docSections.installation],
+        async: [docSections.async],
         tlNetwork: [docSections.tlNetwork],
         user: [docSections.user],
         currencyNetwork: [docSections.currencyNetwork],
@@ -49,6 +53,7 @@ const docsInfoConfig: DocsInfoConfig = {
     sectionNameToMarkdown: {
         [docSections.introduction]: IntroMarkdown,
         [docSections.installation]: InstallMarkdown,
+        [docSections.async]: AsyncMarkdown,
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
