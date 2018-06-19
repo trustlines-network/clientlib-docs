@@ -10,7 +10,8 @@
         "build:prod": "NODE_ENV=production webpack",
         "watch": "tsc -w",
         "clean": "shx rm -rf lib; shx rm -f docs/bundle*",
-        "dev": "webpack-dev-server --open"
+        "dev": "webpack-dev-server --open",
+        "deploy": "yarn build:prod && git add ./docs && git commit 'add new build' && git push"
     },
     "author": "Dong-Ha Kim",
     "bugs": {

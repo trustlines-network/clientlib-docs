@@ -5,7 +5,7 @@
 	"flags": {},
 	"children": [
 		{
-			"id": 163,
+			"id": 162,
 			"name": "\"Configuration\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -16,7 +16,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Configuration.ts",
 			"children": [
 				{
-					"id": 164,
+					"id": 163,
 					"name": "Configuration",
 					"kind": 128,
 					"kindString": "Class",
@@ -29,7 +29,7 @@
 					},
 					"children": [
 						{
-							"id": 168,
+							"id": 166,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -42,7 +42,7 @@
 							},
 							"signatures": [
 								{
-									"id": 169,
+									"id": 167,
 									"name": "new Configuration",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -52,7 +52,7 @@
 									},
 									"parameters": [
 										{
-											"id": 170,
+											"id": 168,
 											"name": "config",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71,20 +71,20 @@
 									"type": {
 										"type": "reference",
 										"name": "Configuration",
-										"id": 164
+										"id": 163
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "Configuration.ts",
-									"line": 19,
-									"character": 29
+									"line": 15,
+									"character": 25
 								}
 							]
 						},
 						{
-							"id": 165,
+							"id": 164,
 							"name": "apiUrl",
 							"kind": 1024,
 							"kindString": "Property",
@@ -109,32 +109,7 @@
 							}
 						},
 						{
-							"id": 167,
-							"name": "pollInterval",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true,
-								"isPublic": true
-							},
-							"comment": {
-								"shortText": "Default poll interval in seconds for Observables"
-							},
-							"sources": [
-								{
-									"fileName": "Configuration.ts",
-									"line": 19,
-									"character": 21
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						},
-						{
-							"id": 166,
+							"id": 165,
 							"name": "wsApiUrl",
 							"kind": 1024,
 							"kindString": "Property",
@@ -164,16 +139,15 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								168
+								166
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								165,
-								167,
-								166
+								164,
+								165
 							]
 						}
 					],
@@ -191,7 +165,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						164
+						163
 					]
 				}
 			],
@@ -204,7 +178,7 @@
 			]
 		},
 		{
-			"id": 430,
+			"id": 419,
 			"name": "\"Contact\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -215,7 +189,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Contact.ts",
 			"children": [
 				{
-					"id": 431,
+					"id": 420,
 					"name": "Contact",
 					"kind": 128,
 					"kindString": "Class",
@@ -225,7 +199,7 @@
 					},
 					"children": [
 						{
-							"id": 432,
+							"id": 421,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -235,14 +209,14 @@
 							},
 							"signatures": [
 								{
-									"id": 433,
+									"id": 422,
 									"name": "new Contact",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 434,
+											"id": 423,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -250,11 +224,11 @@
 											"type": {
 												"type": "reference",
 												"name": "User",
-												"id": 248
+												"id": 243
 											}
 										},
 										{
-											"id": 435,
+											"id": 424,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -262,14 +236,14 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Contact",
-										"id": 431
+										"id": 420
 									}
 								}
 							],
@@ -282,7 +256,7 @@
 							]
 						},
 						{
-							"id": 439,
+							"id": 428,
 							"name": "createLink",
 							"kind": 2048,
 							"kindString": "Method",
@@ -293,14 +267,14 @@
 							},
 							"signatures": [
 								{
-									"id": 440,
+									"id": 429,
 									"name": "createLink",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 441,
+											"id": 430,
 											"name": "address",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -311,7 +285,7 @@
 											}
 										},
 										{
-											"id": 442,
+											"id": 431,
 											"name": "username",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -343,7 +317,7 @@
 							]
 						},
 						{
-							"id": 436,
+							"id": 425,
 							"name": "getAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -354,14 +328,14 @@
 							},
 							"signatures": [
 								{
-									"id": 437,
+									"id": 426,
 									"name": "getAll",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 438,
+											"id": 427,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -401,15 +375,15 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								432
+								421
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								439,
-								436
+								428,
+								425
 							]
 						}
 					],
@@ -427,7 +401,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						431
+						420
 					]
 				}
 			],
@@ -440,7 +414,7 @@
 			]
 		},
 		{
-			"id": 306,
+			"id": 299,
 			"name": "\"CurrencyNetwork\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -451,7 +425,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/CurrencyNetwork.ts",
 			"children": [
 				{
-					"id": 307,
+					"id": 300,
 					"name": "CurrencyNetwork",
 					"kind": 128,
 					"kindString": "Class",
@@ -464,7 +438,7 @@
 					},
 					"children": [
 						{
-							"id": 308,
+							"id": 301,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -474,14 +448,14 @@
 							},
 							"signatures": [
 								{
-									"id": 309,
+									"id": 302,
 									"name": "new CurrencyNetwork",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 310,
+											"id": 303,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -489,14 +463,14 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "CurrencyNetwork",
-										"id": 307
+										"id": 300
 									}
 								}
 							],
@@ -509,7 +483,7 @@
 							]
 						},
 						{
-							"id": 311,
+							"id": 304,
 							"name": "getAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -520,7 +494,7 @@
 							},
 							"signatures": [
 								{
-									"id": 312,
+									"id": 305,
 									"name": "getAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -537,7 +511,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "Network",
-													"id": 64
+													"id": 63
 												}
 											}
 										]
@@ -553,7 +527,7 @@
 							]
 						},
 						{
-							"id": 323,
+							"id": 316,
 							"name": "getDecimals",
 							"kind": 2048,
 							"kindString": "Method",
@@ -564,7 +538,7 @@
 							},
 							"signatures": [
 								{
-									"id": 324,
+									"id": 317,
 									"name": "getDecimals",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -574,7 +548,7 @@
 									},
 									"parameters": [
 										{
-											"id": 325,
+											"id": 318,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -588,7 +562,7 @@
 											}
 										},
 										{
-											"id": 326,
+											"id": 319,
 											"name": "decimals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -619,13 +593,13 @@
 							"sources": [
 								{
 									"fileName": "CurrencyNetwork.ts",
-									"line": 89,
+									"line": 77,
 									"character": 26
 								}
 							]
 						},
 						{
-							"id": 313,
+							"id": 306,
 							"name": "getInfo",
 							"kind": 2048,
 							"kindString": "Method",
@@ -636,7 +610,7 @@
 							},
 							"signatures": [
 								{
-									"id": 314,
+									"id": 307,
 									"name": "getInfo",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -647,7 +621,7 @@
 									},
 									"parameters": [
 										{
-											"id": 315,
+											"id": 308,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -668,7 +642,7 @@
 											{
 												"type": "reference",
 												"name": "NetworkDetails",
-												"id": 68
+												"id": 67
 											}
 										]
 									}
@@ -683,7 +657,7 @@
 							]
 						},
 						{
-							"id": 319,
+							"id": 312,
 							"name": "getUserOverview",
 							"kind": 2048,
 							"kindString": "Method",
@@ -694,7 +668,7 @@
 							},
 							"signatures": [
 								{
-									"id": 320,
+									"id": 313,
 									"name": "getUserOverview",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -704,7 +678,7 @@
 									},
 									"parameters": [
 										{
-											"id": 321,
+											"id": 314,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -718,7 +692,7 @@
 											}
 										},
 										{
-											"id": 322,
+											"id": 315,
 											"name": "userAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -739,7 +713,7 @@
 											{
 												"type": "reference",
 												"name": "UserOverview",
-												"id": 74
+												"id": 73
 											}
 										]
 									}
@@ -748,13 +722,13 @@
 							"sources": [
 								{
 									"fileName": "CurrencyNetwork.ts",
-									"line": 62,
+									"line": 54,
 									"character": 30
 								}
 							]
 						},
 						{
-							"id": 316,
+							"id": 309,
 							"name": "getUsers",
 							"kind": 2048,
 							"kindString": "Method",
@@ -765,7 +739,7 @@
 							},
 							"signatures": [
 								{
-									"id": 317,
+									"id": 310,
 									"name": "getUsers",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -775,7 +749,7 @@
 									},
 									"parameters": [
 										{
-											"id": 318,
+											"id": 311,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -807,13 +781,13 @@
 							"sources": [
 								{
 									"fileName": "CurrencyNetwork.ts",
-									"line": 48,
+									"line": 44,
 									"character": 23
 								}
 							]
 						},
 						{
-							"id": 327,
+							"id": 320,
 							"name": "isNetwork",
 							"kind": 2048,
 							"kindString": "Method",
@@ -824,7 +798,7 @@
 							},
 							"signatures": [
 								{
-									"id": 328,
+									"id": 321,
 									"name": "isNetwork",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -834,7 +808,7 @@
 									},
 									"parameters": [
 										{
-											"id": 329,
+											"id": 322,
 											"name": "contractAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -863,7 +837,7 @@
 							"sources": [
 								{
 									"fileName": "CurrencyNetwork.ts",
-									"line": 116,
+									"line": 98,
 									"character": 24
 								}
 							]
@@ -874,19 +848,19 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								308
+								301
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								311,
-								323,
-								313,
-								319,
+								304,
 								316,
-								327
+								306,
+								312,
+								309,
+								320
 							]
 						}
 					],
@@ -904,7 +878,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						307
+						300
 					]
 				}
 			],
@@ -917,7 +891,7 @@
 			]
 		},
 		{
-			"id": 330,
+			"id": 323,
 			"name": "\"Event\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -928,7 +902,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Event.ts",
 			"children": [
 				{
-					"id": 331,
+					"id": 324,
 					"name": "Event",
 					"kind": 128,
 					"kindString": "Class",
@@ -941,7 +915,7 @@
 					},
 					"children": [
 						{
-							"id": 332,
+							"id": 325,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -951,14 +925,14 @@
 							},
 							"signatures": [
 								{
-									"id": 333,
+									"id": 326,
 									"name": "new Event",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 334,
+											"id": 327,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -966,11 +940,11 @@
 											"type": {
 												"type": "reference",
 												"name": "User",
-												"id": 248
+												"id": 243
 											}
 										},
 										{
-											"id": 335,
+											"id": 328,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -978,11 +952,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										},
 										{
-											"id": 336,
+											"id": 329,
 											"name": "currencyNetwork",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -990,14 +964,14 @@
 											"type": {
 												"type": "reference",
 												"name": "CurrencyNetwork",
-												"id": 307
+												"id": 300
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Event",
-										"id": 331
+										"id": 324
 									}
 								}
 							],
@@ -1010,7 +984,7 @@
 							]
 						},
 						{
-							"id": 341,
+							"id": 330,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1021,7 +995,7 @@
 							},
 							"signatures": [
 								{
-									"id": 342,
+									"id": 331,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1031,7 +1005,7 @@
 									},
 									"parameters": [
 										{
-											"id": 343,
+											"id": 332,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1045,7 +1019,7 @@
 											}
 										},
 										{
-											"id": 344,
+											"id": 333,
 											"name": "filter",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1056,7 +1030,7 @@
 											"type": {
 												"type": "reference",
 												"name": "EventFilterOptions",
-												"id": 26
+												"id": 25
 											},
 											"defaultValue": " {}"
 										}
@@ -1070,7 +1044,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "TLEvent",
-													"id": 29
+													"id": 28
 												}
 											}
 										]
@@ -1080,13 +1054,13 @@
 							"sources": [
 								{
 									"fileName": "Event.ts",
-									"line": 53,
+									"line": 36,
 									"character": 18
 								}
 							]
 						},
 						{
-							"id": 345,
+							"id": 334,
 							"name": "getAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1097,7 +1071,7 @@
 							},
 							"signatures": [
 								{
-									"id": 346,
+									"id": 335,
 									"name": "getAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1107,7 +1081,7 @@
 									},
 									"parameters": [
 										{
-											"id": 347,
+											"id": 336,
 											"name": "filter",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1118,7 +1092,7 @@
 											"type": {
 												"type": "reference",
 												"name": "EventFilterOptions",
-												"id": 26
+												"id": 25
 											},
 											"defaultValue": " {}"
 										}
@@ -1132,7 +1106,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "TLEvent",
-													"id": 29
+													"id": 28
 												}
 											}
 										]
@@ -1142,7 +1116,7 @@
 							"sources": [
 								{
 									"fileName": "Event.ts",
-									"line": 75,
+									"line": 54,
 									"character": 21
 								}
 							]
@@ -1153,15 +1127,15 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								332
+								325
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								341,
-								345
+								330,
+								334
 							]
 						}
 					],
@@ -1179,7 +1153,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						331
+						324
 					]
 				}
 			],
@@ -1192,7 +1166,7 @@
 			]
 		},
 		{
-			"id": 443,
+			"id": 432,
 			"name": "\"Exchange\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -1203,7 +1177,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Exchange.ts",
 			"children": [
 				{
-					"id": 444,
+					"id": 433,
 					"name": "Exchange",
 					"kind": 128,
 					"kindString": "Class",
@@ -1213,7 +1187,7 @@
 					},
 					"children": [
 						{
-							"id": 445,
+							"id": 434,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -1223,14 +1197,14 @@
 							},
 							"signatures": [
 								{
-									"id": 446,
+									"id": 435,
 									"name": "new Exchange",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 447,
+											"id": 436,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1238,11 +1212,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Event",
-												"id": 331
+												"id": 324
 											}
 										},
 										{
-											"id": 448,
+											"id": 437,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1250,11 +1224,11 @@
 											"type": {
 												"type": "reference",
 												"name": "User",
-												"id": 248
+												"id": 243
 											}
 										},
 										{
-											"id": 449,
+											"id": 438,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1262,11 +1236,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										},
 										{
-											"id": 450,
+											"id": 439,
 											"name": "transaction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1274,11 +1248,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Transaction",
-												"id": 223
+												"id": 218
 											}
 										},
 										{
-											"id": 451,
+											"id": 440,
 											"name": "currencyNetwork",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1286,11 +1260,11 @@
 											"type": {
 												"type": "reference",
 												"name": "CurrencyNetwork",
-												"id": 307
+												"id": 300
 											}
 										},
 										{
-											"id": 452,
+											"id": 441,
 											"name": "payment",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1298,14 +1272,14 @@
 											"type": {
 												"type": "reference",
 												"name": "Payment",
-												"id": 351
+												"id": 340
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Exchange",
-										"id": 444
+										"id": 433
 									}
 								}
 							],
@@ -1318,7 +1292,7 @@
 							]
 						},
 						{
-							"id": 487,
+							"id": 476,
 							"name": "cancelOrder",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1329,14 +1303,14 @@
 							},
 							"signatures": [
 								{
-									"id": 488,
+									"id": 477,
 									"name": "cancelOrder",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 489,
+											"id": 478,
 											"name": "signedOrder",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1344,11 +1318,11 @@
 											"type": {
 												"type": "reference",
 												"name": "SignedOrder",
-												"id": 122
+												"id": 121
 											}
 										},
 										{
-											"id": 490,
+											"id": 479,
 											"name": "cancelTakerTokenValue",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1368,7 +1342,7 @@
 											}
 										},
 										{
-											"id": 491,
+											"id": 480,
 											"name": "__namedParameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1377,14 +1351,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 492,
+													"id": 481,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 493,
+															"id": 482,
 															"name": "gasLimit",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1404,7 +1378,7 @@
 															}
 														},
 														{
-															"id": 494,
+															"id": 483,
 															"name": "gasPrice",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1424,7 +1398,7 @@
 															}
 														},
 														{
-															"id": 495,
+															"id": 484,
 															"name": "makerTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1444,7 +1418,7 @@
 															}
 														},
 														{
-															"id": 496,
+															"id": 485,
 															"name": "takerTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1469,10 +1443,10 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																493,
-																494,
-																495,
-																496
+																482,
+																483,
+																484,
+																485
 															]
 														}
 													],
@@ -1509,7 +1483,7 @@
 							]
 						},
 						{
-							"id": 497,
+							"id": 486,
 							"name": "confirm",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1520,14 +1494,14 @@
 							},
 							"signatures": [
 								{
-									"id": 498,
+									"id": 487,
 									"name": "confirm",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 499,
+											"id": 488,
 											"name": "rawTx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1559,7 +1533,7 @@
 							]
 						},
 						{
-							"id": 455,
+							"id": 444,
 							"name": "getEthWrappers",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1570,7 +1544,7 @@
 							},
 							"signatures": [
 								{
-									"id": 456,
+									"id": 445,
 									"name": "getEthWrappers",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1596,7 +1570,7 @@
 							]
 						},
 						{
-							"id": 453,
+							"id": 442,
 							"name": "getExchanges",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1607,7 +1581,7 @@
 							},
 							"signatures": [
 								{
-									"id": 454,
+									"id": 443,
 									"name": "getExchanges",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1633,7 +1607,7 @@
 							]
 						},
 						{
-							"id": 457,
+							"id": 446,
 							"name": "getOrderbook",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1644,14 +1618,14 @@
 							},
 							"signatures": [
 								{
-									"id": 458,
+									"id": 447,
 									"name": "getOrderbook",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 459,
+											"id": 448,
 											"name": "baseTokenAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1662,7 +1636,7 @@
 											}
 										},
 										{
-											"id": 460,
+											"id": 449,
 											"name": "quoteTokenAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1673,7 +1647,7 @@
 											}
 										},
 										{
-											"id": 461,
+											"id": 450,
 											"name": "__namedParameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1682,14 +1656,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 462,
+													"id": 451,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 463,
+															"id": 452,
 															"name": "baseTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1709,7 +1683,7 @@
 															}
 														},
 														{
-															"id": 464,
+															"id": 453,
 															"name": "quoteTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1734,8 +1708,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																463,
-																464
+																452,
+																453
 															]
 														}
 													],
@@ -1758,7 +1732,7 @@
 											{
 												"type": "reference",
 												"name": "Orderbook",
-												"id": 119
+												"id": 118
 											}
 										]
 									}
@@ -1773,7 +1747,7 @@
 							]
 						},
 						{
-							"id": 465,
+							"id": 454,
 							"name": "makeOrder",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1784,14 +1758,14 @@
 							},
 							"signatures": [
 								{
-									"id": 466,
+									"id": 455,
 									"name": "makeOrder",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 467,
+											"id": 456,
 											"name": "exchangeContractAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1802,7 +1776,7 @@
 											}
 										},
 										{
-											"id": 468,
+											"id": 457,
 											"name": "makerTokenAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1813,7 +1787,7 @@
 											}
 										},
 										{
-											"id": 469,
+											"id": 458,
 											"name": "takerTokenAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1824,7 +1798,7 @@
 											}
 										},
 										{
-											"id": 470,
+											"id": 459,
 											"name": "makerTokenValue",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1844,7 +1818,7 @@
 											}
 										},
 										{
-											"id": 471,
+											"id": 460,
 											"name": "takerTokenValue",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1864,7 +1838,7 @@
 											}
 										},
 										{
-											"id": 472,
+											"id": 461,
 											"name": "__namedParameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1873,14 +1847,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 473,
+													"id": 462,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 476,
+															"id": 465,
 															"name": "expirationUnixTimestampSec",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1901,7 +1875,7 @@
 															"defaultValue": "2524604400"
 														},
 														{
-															"id": 474,
+															"id": 463,
 															"name": "makerTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1921,7 +1895,7 @@
 															}
 														},
 														{
-															"id": 475,
+															"id": 464,
 															"name": "takerTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1946,9 +1920,9 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																476,
-																474,
-																475
+																465,
+																463,
+																464
 															]
 														}
 													],
@@ -1971,7 +1945,7 @@
 											{
 												"type": "reference",
 												"name": "SignedOrder",
-												"id": 122
+												"id": 121
 											}
 										]
 									}
@@ -1986,7 +1960,7 @@
 							]
 						},
 						{
-							"id": 477,
+							"id": 466,
 							"name": "prepTakeOrder",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1997,14 +1971,14 @@
 							},
 							"signatures": [
 								{
-									"id": 478,
+									"id": 467,
 									"name": "prepTakeOrder",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 479,
+											"id": 468,
 											"name": "signedOrder",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2012,11 +1986,11 @@
 											"type": {
 												"type": "reference",
 												"name": "SignedOrder",
-												"id": 122
+												"id": 121
 											}
 										},
 										{
-											"id": 480,
+											"id": 469,
 											"name": "fillTakerTokenValue",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2036,7 +2010,7 @@
 											}
 										},
 										{
-											"id": 481,
+											"id": 470,
 											"name": "__namedParameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2045,14 +2019,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 482,
+													"id": 471,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 483,
+															"id": 472,
 															"name": "gasLimit",
 															"kind": 32,
 															"kindString": "Variable",
@@ -2072,7 +2046,7 @@
 															}
 														},
 														{
-															"id": 484,
+															"id": 473,
 															"name": "gasPrice",
 															"kind": 32,
 															"kindString": "Variable",
@@ -2092,7 +2066,7 @@
 															}
 														},
 														{
-															"id": 485,
+															"id": 474,
 															"name": "makerTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -2112,7 +2086,7 @@
 															}
 														},
 														{
-															"id": 486,
+															"id": 475,
 															"name": "takerTokenDecimals",
 															"kind": 32,
 															"kindString": "Variable",
@@ -2137,10 +2111,10 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																483,
-																484,
-																485,
-																486
+																472,
+																473,
+																474,
+																475
 															]
 														}
 													],
@@ -2182,20 +2156,20 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								445
+								434
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								487,
-								497,
-								455,
-								453,
-								457,
-								465,
-								477
+								476,
+								486,
+								444,
+								442,
+								446,
+								454,
+								466
 							]
 						}
 					],
@@ -2208,7 +2182,7 @@
 					]
 				},
 				{
-					"id": 500,
+					"id": 489,
 					"name": "ZERO_ADDRESS",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2235,14 +2209,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						444
+						433
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						500
+						489
 					]
 				}
 			],
@@ -2255,7 +2229,7 @@
 			]
 		},
 		{
-			"id": 501,
+			"id": 490,
 			"name": "\"Messaging\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2266,7 +2240,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Messaging.ts",
 			"children": [
 				{
-					"id": 502,
+					"id": 491,
 					"name": "Messaging",
 					"kind": 128,
 					"kindString": "Class",
@@ -2276,7 +2250,7 @@
 					},
 					"children": [
 						{
-							"id": 503,
+							"id": 492,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2286,14 +2260,14 @@
 							},
 							"signatures": [
 								{
-									"id": 504,
+									"id": 493,
 									"name": "new Messaging",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 505,
+											"id": 494,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2301,11 +2275,11 @@
 											"type": {
 												"type": "reference",
 												"name": "User",
-												"id": 248
+												"id": 243
 											}
 										},
 										{
-											"id": 506,
+											"id": 495,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2313,11 +2287,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										},
 										{
-											"id": 507,
+											"id": 496,
 											"name": "currencyNetwork",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2325,14 +2299,14 @@
 											"type": {
 												"type": "reference",
 												"name": "CurrencyNetwork",
-												"id": 307
+												"id": 300
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Messaging",
-										"id": 502
+										"id": 491
 									}
 								}
 							],
@@ -2345,7 +2319,7 @@
 							]
 						},
 						{
-							"id": 513,
+							"id": 502,
 							"name": "messageStream",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2356,7 +2330,7 @@
 							},
 							"signatures": [
 								{
-									"id": 514,
+									"id": 503,
 									"name": "messageStream",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2382,7 +2356,7 @@
 							]
 						},
 						{
-							"id": 508,
+							"id": 497,
 							"name": "paymentRequest",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2393,14 +2367,14 @@
 							},
 							"signatures": [
 								{
-									"id": 509,
+									"id": 498,
 									"name": "paymentRequest",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 510,
+											"id": 499,
 											"name": "network",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2411,7 +2385,7 @@
 											}
 										},
 										{
-											"id": 511,
+											"id": 500,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2422,7 +2396,7 @@
 											}
 										},
 										{
-											"id": 512,
+											"id": 501,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2459,15 +2433,15 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								503
+								492
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								513,
-								508
+								502,
+								497
 							]
 						}
 					],
@@ -2485,7 +2459,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						502
+						491
 					]
 				}
 			],
@@ -2498,7 +2472,7 @@
 			]
 		},
 		{
-			"id": 350,
+			"id": 339,
 			"name": "\"Payment\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2509,7 +2483,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Payment.ts",
 			"children": [
 				{
-					"id": 351,
+					"id": 340,
 					"name": "Payment",
 					"kind": 128,
 					"kindString": "Class",
@@ -2522,7 +2496,7 @@
 					},
 					"children": [
 						{
-							"id": 352,
+							"id": 341,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2532,14 +2506,14 @@
 							},
 							"signatures": [
 								{
-									"id": 353,
+									"id": 342,
 									"name": "new Payment",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 354,
+											"id": 343,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2547,11 +2521,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Event",
-												"id": 331
+												"id": 324
 											}
 										},
 										{
-											"id": 355,
+											"id": 344,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2559,11 +2533,11 @@
 											"type": {
 												"type": "reference",
 												"name": "User",
-												"id": 248
+												"id": 243
 											}
 										},
 										{
-											"id": 356,
+											"id": 345,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2571,11 +2545,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										},
 										{
-											"id": 357,
+											"id": 346,
 											"name": "transaction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2583,11 +2557,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Transaction",
-												"id": 223
+												"id": 218
 											}
 										},
 										{
-											"id": 358,
+											"id": 347,
 											"name": "currencyNetwork",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2595,14 +2569,14 @@
 											"type": {
 												"type": "reference",
 												"name": "CurrencyNetwork",
-												"id": 307
+												"id": 300
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Payment",
-										"id": 351
+										"id": 340
 									}
 								}
 							],
@@ -2615,7 +2589,7 @@
 							]
 						},
 						{
-							"id": 381,
+							"id": 370,
 							"name": "confirm",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2626,7 +2600,7 @@
 							},
 							"signatures": [
 								{
-									"id": 382,
+									"id": 371,
 									"name": "confirm",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2636,7 +2610,7 @@
 									},
 									"parameters": [
 										{
-											"id": 383,
+											"id": 372,
 											"name": "rawTx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2665,13 +2639,13 @@
 							"sources": [
 								{
 									"fileName": "Payment.ts",
-									"line": 182,
+									"line": 174,
 									"character": 22
 								}
 							]
 						},
 						{
-							"id": 384,
+							"id": 373,
 							"name": "createRequest",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2682,7 +2656,7 @@
 							},
 							"signatures": [
 								{
-									"id": 385,
+									"id": 374,
 									"name": "createRequest",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2692,7 +2666,7 @@
 									},
 									"parameters": [
 										{
-											"id": 386,
+											"id": 375,
 											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2706,7 +2680,7 @@
 											}
 										},
 										{
-											"id": 387,
+											"id": 376,
 											"name": "amount",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2720,7 +2694,7 @@
 											}
 										},
 										{
-											"id": 388,
+											"id": 377,
 											"name": "subject",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2749,13 +2723,13 @@
 							"sources": [
 								{
 									"fileName": "Payment.ts",
-									"line": 197,
-									"character": 22
+									"line": 185,
+									"character": 28
 								}
 							]
 						},
 						{
-							"id": 377,
+							"id": 366,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2766,7 +2740,7 @@
 							},
 							"signatures": [
 								{
-									"id": 378,
+									"id": 367,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2776,8 +2750,8 @@
 									},
 									"parameters": [
 										{
-											"id": 379,
-											"name": "network",
+											"id": 368,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -2790,7 +2764,7 @@
 											}
 										},
 										{
-											"id": 380,
+											"id": 369,
 											"name": "filter",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2801,7 +2775,7 @@
 											"type": {
 												"type": "reference",
 												"name": "EventFilterOptions",
-												"id": 26
+												"id": 25
 											},
 											"defaultValue": " {}"
 										}
@@ -2815,7 +2789,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "TLEvent",
-													"id": 29
+													"id": 28
 												}
 											}
 										]
@@ -2825,13 +2799,13 @@
 							"sources": [
 								{
 									"fileName": "Payment.ts",
-									"line": 168,
+									"line": 160,
 									"character": 12
 								}
 							]
 						},
 						{
-							"id": 370,
+							"id": 359,
 							"name": "getPath",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2842,7 +2816,7 @@
 							},
 							"signatures": [
 								{
-									"id": 371,
+									"id": 360,
 									"name": "getPath",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2852,8 +2826,8 @@
 									},
 									"parameters": [
 										{
-											"id": 372,
-											"name": "network",
+											"id": 361,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -2866,7 +2840,7 @@
 											}
 										},
 										{
-											"id": 373,
+											"id": 362,
 											"name": "senderAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2880,7 +2854,7 @@
 											}
 										},
 										{
-											"id": 374,
+											"id": 363,
 											"name": "receiverAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2894,7 +2868,7 @@
 											}
 										},
 										{
-											"id": 375,
+											"id": 364,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2917,7 +2891,7 @@
 											}
 										},
 										{
-											"id": 376,
+											"id": 365,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2928,7 +2902,7 @@
 											"type": {
 												"type": "reference",
 												"name": "PaymentOptions",
-												"id": 16
+												"id": 15
 											},
 											"defaultValue": " {}"
 										}
@@ -2940,7 +2914,7 @@
 											{
 												"type": "reference",
 												"name": "PathObject",
-												"id": 55
+												"id": 54
 											}
 										]
 									}
@@ -2949,13 +2923,13 @@
 							"sources": [
 								{
 									"fileName": "Payment.ts",
-									"line": 125,
+									"line": 121,
 									"character": 22
 								}
 							]
 						},
 						{
-							"id": 359,
+							"id": 348,
 							"name": "prepare",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2966,7 +2940,7 @@
 							},
 							"signatures": [
 								{
-									"id": 360,
+									"id": 349,
 									"name": "prepare",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2976,8 +2950,8 @@
 									},
 									"parameters": [
 										{
-											"id": 361,
-											"name": "network",
+											"id": 350,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -2990,8 +2964,8 @@
 											}
 										},
 										{
-											"id": 362,
-											"name": "to",
+											"id": 351,
+											"name": "receiverAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -3004,7 +2978,7 @@
 											}
 										},
 										{
-											"id": 363,
+											"id": 352,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3027,7 +3001,7 @@
 											}
 										},
 										{
-											"id": 364,
+											"id": 353,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3038,7 +3012,7 @@
 											"type": {
 												"type": "reference",
 												"name": "PaymentOptions",
-												"id": 16
+												"id": 15
 											},
 											"defaultValue": " {}"
 										}
@@ -3050,7 +3024,7 @@
 											{
 												"type": "reference",
 												"name": "TLTxObject",
-												"id": 50
+												"id": 49
 											}
 										]
 									}
@@ -3065,7 +3039,7 @@
 							]
 						},
 						{
-							"id": 365,
+							"id": 354,
 							"name": "prepareEth",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3076,7 +3050,7 @@
 							},
 							"signatures": [
 								{
-									"id": 366,
+									"id": 355,
 									"name": "prepareEth",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3086,8 +3060,8 @@
 									},
 									"parameters": [
 										{
-											"id": 367,
-											"name": "to",
+											"id": 356,
+											"name": "receiverAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -3100,7 +3074,7 @@
 											}
 										},
 										{
-											"id": 368,
+											"id": 357,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3123,7 +3097,7 @@
 											}
 										},
 										{
-											"id": 369,
+											"id": 358,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3134,7 +3108,7 @@
 											"type": {
 												"type": "reference",
 												"name": "PaymentOptions",
-												"id": 16
+												"id": 15
 											},
 											"defaultValue": " {}"
 										}
@@ -3146,7 +3120,7 @@
 											{
 												"type": "reference",
 												"name": "TxObject",
-												"id": 43
+												"id": 42
 											}
 										]
 									}
@@ -3155,7 +3129,7 @@
 							"sources": [
 								{
 									"fileName": "Payment.ts",
-									"line": 100,
+									"line": 96,
 									"character": 19
 								}
 							]
@@ -3166,19 +3140,19 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								352
+								341
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								381,
-								384,
-								377,
 								370,
+								373,
+								366,
 								359,
-								365
+								348,
+								354
 							]
 						}
 					],
@@ -3196,7 +3170,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						351
+						340
 					]
 				}
 			],
@@ -3209,7 +3183,7 @@
 			]
 		},
 		{
-			"id": 515,
+			"id": 504,
 			"name": "\"TLNetwork\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3219,7 +3193,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/TLNetwork.ts",
 			"children": [
 				{
-					"id": 516,
+					"id": 505,
 					"name": "TLNetwork",
 					"kind": 128,
 					"kindString": "Class",
@@ -3231,7 +3205,7 @@
 					},
 					"children": [
 						{
-							"id": 528,
+							"id": 517,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3243,7 +3217,7 @@
 							},
 							"signatures": [
 								{
-									"id": 529,
+									"id": 518,
 									"name": "new TLNetwork",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -3253,7 +3227,7 @@
 									},
 									"parameters": [
 										{
-											"id": 530,
+											"id": 519,
 											"name": "config",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3272,7 +3246,7 @@
 									"type": {
 										"type": "reference",
 										"name": "TLNetwork",
-										"id": 516
+										"id": 505
 									}
 								}
 							],
@@ -3285,7 +3259,7 @@
 							]
 						},
 						{
-							"id": 522,
+							"id": 511,
 							"name": "currencyNetwork",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3306,11 +3280,11 @@
 							"type": {
 								"type": "reference",
 								"name": "CurrencyNetwork",
-								"id": 307
+								"id": 300
 							}
 						},
 						{
-							"id": 525,
+							"id": 514,
 							"name": "event",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3331,11 +3305,11 @@
 							"type": {
 								"type": "reference",
 								"name": "Event",
-								"id": 331
+								"id": 324
 							}
 						},
 						{
-							"id": 520,
+							"id": 509,
 							"name": "payment",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3356,11 +3330,11 @@
 							"type": {
 								"type": "reference",
 								"name": "Payment",
-								"id": 351
+								"id": 340
 							}
 						},
 						{
-							"id": 521,
+							"id": 510,
 							"name": "trustline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3381,11 +3355,11 @@
 							"type": {
 								"type": "reference",
 								"name": "Trustline",
-								"id": 390
+								"id": 379
 							}
 						},
 						{
-							"id": 518,
+							"id": 507,
 							"name": "user",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3406,7 +3380,7 @@
 							"type": {
 								"type": "reference",
 								"name": "User",
-								"id": 248
+								"id": 243
 							}
 						}
 					],
@@ -3415,18 +3389,18 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								528
+								517
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								522,
-								525,
-								520,
-								521,
-								518
+								511,
+								514,
+								509,
+								510,
+								507
 							]
 						}
 					],
@@ -3444,7 +3418,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						516
+						505
 					]
 				}
 			],
@@ -3457,7 +3431,7 @@
 			]
 		},
 		{
-			"id": 222,
+			"id": 217,
 			"name": "\"Transaction\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3468,7 +3442,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Transaction.ts",
 			"children": [
 				{
-					"id": 223,
+					"id": 218,
 					"name": "Transaction",
 					"kind": 128,
 					"kindString": "Class",
@@ -3481,7 +3455,7 @@
 					},
 					"children": [
 						{
-							"id": 224,
+							"id": 219,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3491,14 +3465,14 @@
 							},
 							"signatures": [
 								{
-									"id": 225,
+									"id": 220,
 									"name": "new Transaction",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 226,
+											"id": 221,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3506,14 +3480,14 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Transaction",
-										"id": 223
+										"id": 218
 									}
 								}
 							],
@@ -3526,7 +3500,7 @@
 							]
 						},
 						{
-							"id": 244,
+							"id": 239,
 							"name": "getBlockNumber",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3537,7 +3511,7 @@
 							},
 							"signatures": [
 								{
-									"id": 245,
+									"id": 240,
 									"name": "getBlockNumber",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3560,13 +3534,13 @@
 							"sources": [
 								{
 									"fileName": "Transaction.ts",
-									"line": 118,
+									"line": 110,
 									"character": 23
 								}
 							]
 						},
 						{
-							"id": 227,
+							"id": 222,
 							"name": "prepFuncTx",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3577,7 +3551,7 @@
 							},
 							"signatures": [
 								{
-									"id": 228,
+									"id": 223,
 									"name": "prepFuncTx",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3588,7 +3562,7 @@
 									},
 									"parameters": [
 										{
-											"id": 229,
+											"id": 224,
 											"name": "userAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3602,7 +3576,7 @@
 											}
 										},
 										{
-											"id": 230,
+											"id": 225,
 											"name": "contractAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3616,7 +3590,7 @@
 											}
 										},
 										{
-											"id": 231,
+											"id": 226,
 											"name": "contractName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3630,7 +3604,7 @@
 											}
 										},
 										{
-											"id": 232,
+											"id": 227,
 											"name": "functionName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3644,7 +3618,7 @@
 											}
 										},
 										{
-											"id": 233,
+											"id": 228,
 											"name": "parameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3661,7 +3635,7 @@
 											}
 										},
 										{
-											"id": 234,
+											"id": 229,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3669,7 +3643,7 @@
 											"type": {
 												"type": "reference",
 												"name": "TxOptions",
-												"id": 9
+												"id": 8
 											},
 											"defaultValue": " {}"
 										}
@@ -3681,7 +3655,7 @@
 											{
 												"type": "reference",
 												"name": "TxObject",
-												"id": 43
+												"id": 42
 											}
 										]
 									}
@@ -3696,7 +3670,7 @@
 							]
 						},
 						{
-							"id": 235,
+							"id": 230,
 							"name": "prepValueTx",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3707,7 +3681,7 @@
 							},
 							"signatures": [
 								{
-									"id": 236,
+									"id": 231,
 									"name": "prepValueTx",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3718,8 +3692,8 @@
 									},
 									"parameters": [
 										{
-											"id": 237,
-											"name": "from",
+											"id": 232,
+											"name": "senderAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -3732,8 +3706,8 @@
 											}
 										},
 										{
-											"id": 238,
-											"name": "to",
+											"id": 233,
+											"name": "receiverAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -3746,7 +3720,7 @@
 											}
 										},
 										{
-											"id": 239,
+											"id": 234,
 											"name": "rawValue",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3760,7 +3734,7 @@
 											}
 										},
 										{
-											"id": 240,
+											"id": 235,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3768,7 +3742,7 @@
 											"type": {
 												"type": "reference",
 												"name": "TxOptions",
-												"id": 9
+												"id": 8
 											},
 											"defaultValue": " {}"
 										}
@@ -3780,7 +3754,7 @@
 											{
 												"type": "reference",
 												"name": "TxObject",
-												"id": 43
+												"id": 42
 											}
 										]
 									}
@@ -3789,13 +3763,13 @@
 							"sources": [
 								{
 									"fileName": "Transaction.ts",
-									"line": 75,
+									"line": 71,
 									"character": 26
 								}
 							]
 						},
 						{
-							"id": 241,
+							"id": 236,
 							"name": "relayTx",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3806,7 +3780,7 @@
 							},
 							"signatures": [
 								{
-									"id": 242,
+									"id": 237,
 									"name": "relayTx",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3816,7 +3790,7 @@
 									},
 									"parameters": [
 										{
-											"id": 243,
+											"id": 238,
 											"name": "signedTx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3845,7 +3819,7 @@
 							"sources": [
 								{
 									"fileName": "Transaction.ts",
-									"line": 105,
+									"line": 97,
 									"character": 16
 								}
 							]
@@ -3856,17 +3830,17 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								224
+								219
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								244,
-								227,
-								235,
-								241
+								239,
+								222,
+								230,
+								236
 							]
 						}
 					],
@@ -3879,7 +3853,7 @@
 					]
 				},
 				{
-					"id": 246,
+					"id": 241,
 					"name": "CONTRACTS",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3909,14 +3883,14 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						223
+						218
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						246
+						241
 					]
 				}
 			],
@@ -3929,7 +3903,7 @@
 			]
 		},
 		{
-			"id": 389,
+			"id": 378,
 			"name": "\"Trustline\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3940,7 +3914,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Trustline.ts",
 			"children": [
 				{
-					"id": 390,
+					"id": 379,
 					"name": "Trustline",
 					"kind": 128,
 					"kindString": "Class",
@@ -3953,7 +3927,7 @@
 					},
 					"children": [
 						{
-							"id": 391,
+							"id": 380,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3963,14 +3937,14 @@
 							},
 							"signatures": [
 								{
-									"id": 392,
+									"id": 381,
 									"name": "new Trustline",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 393,
+											"id": 382,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3978,11 +3952,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Event",
-												"id": 331
+												"id": 324
 											}
 										},
 										{
-											"id": 394,
+											"id": 383,
 											"name": "user",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3990,11 +3964,11 @@
 											"type": {
 												"type": "reference",
 												"name": "User",
-												"id": 248
+												"id": 243
 											}
 										},
 										{
-											"id": 395,
+											"id": 384,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4002,11 +3976,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										},
 										{
-											"id": 396,
+											"id": 385,
 											"name": "transaction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4014,11 +3988,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Transaction",
-												"id": 223
+												"id": 218
 											}
 										},
 										{
-											"id": 397,
+											"id": 386,
 											"name": "currencyNetwork",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4026,14 +4000,14 @@
 											"type": {
 												"type": "reference",
 												"name": "CurrencyNetwork",
-												"id": 307
+												"id": 300
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Trustline",
-										"id": 390
+										"id": 379
 									}
 								}
 							],
@@ -4046,7 +4020,7 @@
 							]
 						},
 						{
-							"id": 412,
+							"id": 401,
 							"name": "confirm",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4057,7 +4031,7 @@
 							},
 							"signatures": [
 								{
-									"id": 413,
+									"id": 402,
 									"name": "confirm",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4067,7 +4041,7 @@
 									},
 									"parameters": [
 										{
-											"id": 414,
+											"id": 403,
 											"name": "rawTx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4102,7 +4076,7 @@
 							]
 						},
 						{
-							"id": 418,
+							"id": 407,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4113,7 +4087,7 @@
 							},
 							"signatures": [
 								{
-									"id": 419,
+									"id": 408,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4123,8 +4097,8 @@
 									},
 									"parameters": [
 										{
-											"id": 420,
-											"name": "network",
+											"id": 409,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4137,8 +4111,8 @@
 											}
 										},
 										{
-											"id": 421,
-											"name": "counterparty",
+											"id": 410,
+											"name": "counterpartyAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4158,7 +4132,7 @@
 											{
 												"type": "reference",
 												"name": "TrustlineObject",
-												"id": 90
+												"id": 89
 											}
 										]
 									}
@@ -4167,13 +4141,13 @@
 							"sources": [
 								{
 									"fileName": "Trustline.ts",
-									"line": 145,
+									"line": 137,
 									"character": 18
 								}
 							]
 						},
 						{
-							"id": 415,
+							"id": 404,
 							"name": "getAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4184,7 +4158,7 @@
 							},
 							"signatures": [
 								{
-									"id": 416,
+									"id": 405,
 									"name": "getAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4194,8 +4168,8 @@
 									},
 									"parameters": [
 										{
-											"id": 417,
-											"name": "network",
+											"id": 406,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4217,7 +4191,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "TrustlineObject",
-													"id": 90
+													"id": 89
 												}
 											}
 										]
@@ -4227,13 +4201,13 @@
 							"sources": [
 								{
 									"fileName": "Trustline.ts",
-									"line": 126,
+									"line": 122,
 									"character": 21
 								}
 							]
 						},
 						{
-							"id": 422,
+							"id": 411,
 							"name": "getRequests",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4244,7 +4218,7 @@
 							},
 							"signatures": [
 								{
-									"id": 423,
+									"id": 412,
 									"name": "getRequests",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4254,8 +4228,8 @@
 									},
 									"parameters": [
 										{
-											"id": 424,
-											"name": "network",
+											"id": 413,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4268,7 +4242,7 @@
 											}
 										},
 										{
-											"id": 425,
+											"id": 414,
 											"name": "filter",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4279,7 +4253,7 @@
 											"type": {
 												"type": "reference",
 												"name": "EventFilterOptions",
-												"id": 26
+												"id": 25
 											},
 											"defaultValue": " {}"
 										}
@@ -4293,7 +4267,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "TLEvent",
-													"id": 29
+													"id": 28
 												}
 											}
 										]
@@ -4303,13 +4277,13 @@
 							"sources": [
 								{
 									"fileName": "Trustline.ts",
-									"line": 164,
+									"line": 155,
 									"character": 20
 								}
 							]
 						},
 						{
-							"id": 426,
+							"id": 415,
 							"name": "getUpdates",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4320,7 +4294,7 @@
 							},
 							"signatures": [
 								{
-									"id": 427,
+									"id": 416,
 									"name": "getUpdates",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4330,8 +4304,8 @@
 									},
 									"parameters": [
 										{
-											"id": 428,
-											"name": "network",
+											"id": 417,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4344,7 +4318,7 @@
 											}
 										},
 										{
-											"id": 429,
+											"id": 418,
 											"name": "filter",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4355,7 +4329,7 @@
 											"type": {
 												"type": "reference",
 												"name": "EventFilterOptions",
-												"id": 26
+												"id": 25
 											},
 											"defaultValue": " {}"
 										}
@@ -4369,7 +4343,7 @@
 												"elementType": {
 													"type": "reference",
 													"name": "TLEvent",
-													"id": 29
+													"id": 28
 												}
 											}
 										]
@@ -4379,13 +4353,13 @@
 							"sources": [
 								{
 									"fileName": "Trustline.ts",
-									"line": 180,
+									"line": 171,
 									"character": 19
 								}
 							]
 						},
 						{
-							"id": 405,
+							"id": 394,
 							"name": "prepareAccept",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4396,7 +4370,7 @@
 							},
 							"signatures": [
 								{
-									"id": 406,
+									"id": 395,
 									"name": "prepareAccept",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4406,8 +4380,8 @@
 									},
 									"parameters": [
 										{
-											"id": 407,
-											"name": "network",
+											"id": 396,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4420,8 +4394,8 @@
 											}
 										},
 										{
-											"id": 408,
-											"name": "initiator",
+											"id": 397,
+											"name": "initiatorAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4434,8 +4408,8 @@
 											}
 										},
 										{
-											"id": 409,
-											"name": "given",
+											"id": 398,
+											"name": "creditlineGiven",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4457,8 +4431,8 @@
 											}
 										},
 										{
-											"id": 410,
-											"name": "received",
+											"id": 399,
+											"name": "creditlineReceived",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4480,7 +4454,7 @@
 											}
 										},
 										{
-											"id": 411,
+											"id": 400,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4491,7 +4465,7 @@
 											"type": {
 												"type": "reference",
 												"name": "TLOptions",
-												"id": 12
+												"id": 11
 											},
 											"defaultValue": " {}"
 										}
@@ -4503,7 +4477,7 @@
 											{
 												"type": "reference",
 												"name": "TxObject",
-												"id": 43
+												"id": 42
 											}
 										]
 									}
@@ -4518,7 +4492,7 @@
 							]
 						},
 						{
-							"id": 398,
+							"id": 387,
 							"name": "prepareUpdate",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4529,7 +4503,7 @@
 							},
 							"signatures": [
 								{
-									"id": 399,
+									"id": 388,
 									"name": "prepareUpdate",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4539,8 +4513,8 @@
 									},
 									"parameters": [
 										{
-											"id": 400,
-											"name": "network",
+											"id": 389,
+											"name": "networkAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4553,8 +4527,8 @@
 											}
 										},
 										{
-											"id": 401,
-											"name": "counterparty",
+											"id": 390,
+											"name": "counterpartyAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4567,8 +4541,8 @@
 											}
 										},
 										{
-											"id": 402,
-											"name": "given",
+											"id": 391,
+											"name": "creditlineGiven",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4590,8 +4564,8 @@
 											}
 										},
 										{
-											"id": 403,
-											"name": "received",
+											"id": 392,
+											"name": "creditlineReceived",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -4613,7 +4587,7 @@
 											}
 										},
 										{
-											"id": 404,
+											"id": 393,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4624,7 +4598,7 @@
 											"type": {
 												"type": "reference",
 												"name": "TLOptions",
-												"id": 12
+												"id": 11
 											},
 											"defaultValue": " {}"
 										}
@@ -4636,7 +4610,7 @@
 											{
 												"type": "reference",
 												"name": "TxObject",
-												"id": 43
+												"id": 42
 											}
 										]
 									}
@@ -4656,20 +4630,20 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								391
+								380
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								412,
-								418,
+								401,
+								407,
+								404,
+								411,
 								415,
-								422,
-								426,
-								405,
-								398
+								394,
+								387
 							]
 						}
 					],
@@ -4687,7 +4661,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						390
+						379
 					]
 				}
 			],
@@ -4700,7 +4674,7 @@
 			]
 		},
 		{
-			"id": 247,
+			"id": 242,
 			"name": "\"User\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4711,7 +4685,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/User.ts",
 			"children": [
 				{
-					"id": 248,
+					"id": 243,
 					"name": "User",
 					"kind": 128,
 					"kindString": "Class",
@@ -4724,7 +4698,7 @@
 					},
 					"children": [
 						{
-							"id": 252,
+							"id": 247,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4734,14 +4708,14 @@
 							},
 							"signatures": [
 								{
-									"id": 253,
+									"id": 248,
 									"name": "new User",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 254,
+											"id": 249,
 											"name": "transaction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4749,11 +4723,11 @@
 											"type": {
 												"type": "reference",
 												"name": "Transaction",
-												"id": 223
+												"id": 218
 											}
 										},
 										{
-											"id": 255,
+											"id": 250,
 											"name": "utils",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4761,14 +4735,14 @@
 											"type": {
 												"type": "reference",
 												"name": "Utils",
-												"id": 172
+												"id": 170
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "User",
-										"id": 248
+										"id": 243
 									}
 								}
 							],
@@ -4781,7 +4755,7 @@
 							]
 						},
 						{
-							"id": 249,
+							"id": 244,
 							"name": "address",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4806,7 +4780,7 @@
 							}
 						},
 						{
-							"id": 251,
+							"id": 246,
 							"name": "keystore",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4831,7 +4805,7 @@
 							}
 						},
 						{
-							"id": 250,
+							"id": 245,
 							"name": "pubKey",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4856,7 +4830,7 @@
 							}
 						},
 						{
-							"id": 275,
+							"id": 270,
 							"name": "confirmOnboarding",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4867,7 +4841,7 @@
 							},
 							"signatures": [
 								{
-									"id": 276,
+									"id": 271,
 									"name": "confirmOnboarding",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4877,7 +4851,7 @@
 									},
 									"parameters": [
 										{
-											"id": 277,
+											"id": 272,
 											"name": "rawTx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4906,13 +4880,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 183,
+									"line": 171,
 									"character": 32
 								}
 							]
 						},
 						{
-							"id": 256,
+							"id": 251,
 							"name": "create",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4923,7 +4897,7 @@
 							},
 							"signatures": [
 								{
-									"id": 257,
+									"id": 252,
 									"name": "create",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4938,7 +4912,7 @@
 											{
 												"type": "reference",
 												"name": "UserObject",
-												"id": 86
+												"id": 85
 											}
 										]
 									}
@@ -4953,7 +4927,7 @@
 							]
 						},
 						{
-							"id": 297,
+							"id": 290,
 							"name": "createLink",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4964,7 +4938,7 @@
 							},
 							"signatures": [
 								{
-									"id": 298,
+									"id": 291,
 									"name": "createLink",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4974,7 +4948,7 @@
 									},
 									"parameters": [
 										{
-											"id": 299,
+											"id": 292,
 											"name": "username",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4989,21 +4963,27 @@
 										}
 									],
 									"type": {
-										"type": "intrinsic",
-										"name": "string"
+										"type": "reference",
+										"name": "Promise",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										]
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 316,
-									"character": 19
+									"line": 284,
+									"character": 25
 								}
 							]
 						},
 						{
-							"id": 267,
+							"id": 262,
 							"name": "createOnboardingMsg",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5014,7 +4994,7 @@
 							},
 							"signatures": [
 								{
-									"id": 268,
+									"id": 263,
 									"name": "createOnboardingMsg",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5024,7 +5004,7 @@
 									},
 									"parameters": [
 										{
-											"id": 269,
+											"id": 264,
 											"name": "username",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5038,7 +5018,7 @@
 											}
 										},
 										{
-											"id": 270,
+											"id": 265,
 											"name": "serializedKeystore",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5067,13 +5047,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 149,
+									"line": 141,
 									"character": 34
 								}
 							]
 						},
 						{
-							"id": 286,
+							"id": 279,
 							"name": "decrypt",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5084,7 +5064,7 @@
 							},
 							"signatures": [
 								{
-									"id": 287,
+									"id": 280,
 									"name": "decrypt",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5094,7 +5074,7 @@
 									},
 									"parameters": [
 										{
-											"id": 288,
+											"id": 281,
 											"name": "encMsg",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5108,7 +5088,7 @@
 											}
 										},
 										{
-											"id": 289,
+											"id": 282,
 											"name": "theirPubKey",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5137,13 +5117,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 246,
+									"line": 218,
 									"character": 16
 								}
 							]
 						},
 						{
-							"id": 282,
+							"id": 275,
 							"name": "encrypt",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5154,7 +5134,7 @@
 							},
 							"signatures": [
 								{
-									"id": 283,
+									"id": 276,
 									"name": "encrypt",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5164,7 +5144,7 @@
 									},
 									"parameters": [
 										{
-											"id": 284,
+											"id": 277,
 											"name": "msg",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5178,7 +5158,7 @@
 											}
 										},
 										{
-											"id": 285,
+											"id": 278,
 											"name": "theirPubKey",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5207,13 +5187,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 219,
+									"line": 191,
 									"character": 16
 								}
 							]
 						},
 						{
-							"id": 292,
+							"id": 285,
 							"name": "exportPrivateKey",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5224,7 +5204,7 @@
 							},
 							"signatures": [
 								{
-									"id": 293,
+									"id": 286,
 									"name": "exportPrivateKey",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5247,13 +5227,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 280,
+									"line": 252,
 									"character": 25
 								}
 							]
 						},
 						{
-							"id": 278,
+							"id": 273,
 							"name": "getBalance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5264,7 +5244,7 @@
 							},
 							"signatures": [
 								{
-									"id": 279,
+									"id": 274,
 									"name": "getBalance",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5279,7 +5259,7 @@
 											{
 												"type": "reference",
 												"name": "Amount",
-												"id": 22
+												"id": 21
 											}
 										]
 									}
@@ -5288,13 +5268,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 195,
+									"line": 179,
 									"character": 25
 								}
 							]
 						},
 						{
-							"id": 258,
+							"id": 253,
 							"name": "load",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5305,7 +5285,7 @@
 							},
 							"signatures": [
 								{
-									"id": 259,
+									"id": 254,
 									"name": "load",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5315,7 +5295,7 @@
 									},
 									"parameters": [
 										{
-											"id": 260,
+											"id": 255,
 											"name": "serializedKeystore",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5336,7 +5316,7 @@
 											{
 												"type": "reference",
 												"name": "UserObject",
-												"id": 86
+												"id": 85
 											}
 										]
 									}
@@ -5345,13 +5325,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 69,
+									"line": 65,
 									"character": 19
 								}
 							]
 						},
 						{
-							"id": 271,
+							"id": 266,
 							"name": "prepOnboarding",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5362,7 +5342,7 @@
 							},
 							"signatures": [
 								{
-									"id": 272,
+									"id": 267,
 									"name": "prepOnboarding",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5372,7 +5352,7 @@
 									},
 									"parameters": [
 										{
-											"id": 273,
+											"id": 268,
 											"name": "newUserAddress",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5386,7 +5366,7 @@
 											}
 										},
 										{
-											"id": 274,
+											"id": 269,
 											"name": "initialValue",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5416,13 +5396,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 168,
+									"line": 156,
 									"character": 29
 								}
 							]
 						},
 						{
-							"id": 294,
+							"id": 287,
 							"name": "recoverFromSeed",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5433,7 +5413,7 @@
 							},
 							"signatures": [
 								{
-									"id": 295,
+									"id": 288,
 									"name": "recoverFromSeed",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5443,7 +5423,7 @@
 									},
 									"parameters": [
 										{
-											"id": 296,
+											"id": 289,
 											"name": "seed",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5464,7 +5444,7 @@
 											{
 												"type": "reference",
 												"name": "UserObject",
-												"id": 86
+												"id": 85
 											}
 										]
 									}
@@ -5473,13 +5453,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 295,
+									"line": 267,
 									"character": 30
 								}
 							]
 						},
 						{
-							"id": 290,
+							"id": 283,
 							"name": "showSeed",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5490,7 +5470,7 @@
 							},
 							"signatures": [
 								{
-									"id": 291,
+									"id": 284,
 									"name": "showSeed",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5513,13 +5493,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 266,
+									"line": 238,
 									"character": 17
 								}
 							]
 						},
 						{
-							"id": 264,
+							"id": 259,
 							"name": "signMsgHash",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5530,7 +5510,7 @@
 							},
 							"signatures": [
 								{
-									"id": 265,
+									"id": 260,
 									"name": "signMsgHash",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5540,7 +5520,7 @@
 									},
 									"parameters": [
 										{
-											"id": 266,
+											"id": 261,
 											"name": "msgHash",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5569,13 +5549,13 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 115,
+									"line": 107,
 									"character": 20
 								}
 							]
 						},
 						{
-							"id": 261,
+							"id": 256,
 							"name": "signTx",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5586,7 +5566,7 @@
 							},
 							"signatures": [
 								{
-									"id": 262,
+									"id": 257,
 									"name": "signTx",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5596,7 +5576,7 @@
 									},
 									"parameters": [
 										{
-											"id": 263,
+											"id": 258,
 											"name": "rawTx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5625,7 +5605,7 @@
 							"sources": [
 								{
 									"fileName": "User.ts",
-									"line": 95,
+									"line": 87,
 									"character": 15
 								}
 							]
@@ -5636,36 +5616,36 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								252
+								247
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								249,
-								251,
-								250
+								244,
+								246,
+								245
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								275,
-								256,
-								297,
-								267,
-								286,
-								282,
-								292,
-								278,
-								258,
-								271,
-								294,
+								270,
+								251,
 								290,
-								264,
-								261
+								262,
+								279,
+								275,
+								285,
+								273,
+								253,
+								266,
+								287,
+								283,
+								259,
+								256
 							]
 						}
 					],
@@ -5683,7 +5663,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						248
+						243
 					]
 				}
 			],
@@ -5696,7 +5676,7 @@
 			]
 		},
 		{
-			"id": 171,
+			"id": 169,
 			"name": "\"Utils\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5707,7 +5687,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/Utils.ts",
 			"children": [
 				{
-					"id": 172,
+					"id": 170,
 					"name": "Utils",
 					"kind": 128,
 					"kindString": "Class",
@@ -5720,7 +5700,7 @@
 					},
 					"children": [
 						{
-							"id": 173,
+							"id": 171,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -5730,14 +5710,14 @@
 							},
 							"signatures": [
 								{
-									"id": 174,
+									"id": 172,
 									"name": "new Utils",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 175,
+											"id": 173,
 											"name": "configuration",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5745,27 +5725,27 @@
 											"type": {
 												"type": "reference",
 												"name": "Configuration",
-												"id": 164
+												"id": 163
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
 										"name": "Utils",
-										"id": 172
+										"id": 170
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 25,
-									"character": 31
+									"line": 24,
+									"character": 27
 								}
 							]
 						},
 						{
-							"id": 189,
+							"id": 184,
 							"name": "buildUrl",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5776,7 +5756,7 @@
 							},
 							"signatures": [
 								{
-									"id": 190,
+									"id": 185,
 									"name": "buildUrl",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5786,7 +5766,7 @@
 									},
 									"parameters": [
 										{
-											"id": 191,
+											"id": 186,
 											"name": "baseUrl",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5800,7 +5780,7 @@
 											}
 										},
 										{
-											"id": 192,
+											"id": 187,
 											"name": "params",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5825,13 +5805,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 108,
+									"line": 92,
 									"character": 17
 								}
 							]
 						},
 						{
-							"id": 196,
+							"id": 191,
 							"name": "calcRaw",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5842,7 +5822,7 @@
 							},
 							"signatures": [
 								{
-									"id": 197,
+									"id": 192,
 									"name": "calcRaw",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5852,7 +5832,7 @@
 									},
 									"parameters": [
 										{
-											"id": 198,
+											"id": 193,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5875,7 +5855,7 @@
 											}
 										},
 										{
-											"id": 199,
+											"id": 194,
 											"name": "decimals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5898,13 +5878,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 137,
+									"line": 121,
 									"character": 16
 								}
 							]
 						},
 						{
-							"id": 200,
+							"id": 195,
 							"name": "calcValue",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5915,7 +5895,7 @@
 							},
 							"signatures": [
 								{
-									"id": 201,
+									"id": 196,
 									"name": "calcValue",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5925,7 +5905,7 @@
 									},
 									"parameters": [
 										{
-											"id": 202,
+											"id": 197,
 											"name": "raw",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5948,7 +5928,7 @@
 											}
 										},
 										{
-											"id": 203,
+											"id": 198,
 											"name": "decimals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5971,13 +5951,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 147,
+									"line": 131,
 									"character": 18
 								}
 							]
 						},
 						{
-							"id": 212,
+							"id": 207,
 							"name": "checkAddress",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5988,7 +5968,7 @@
 							},
 							"signatures": [
 								{
-									"id": 213,
+									"id": 208,
 									"name": "checkAddress",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5998,7 +5978,7 @@
 									},
 									"parameters": [
 										{
-											"id": 214,
+											"id": 209,
 											"name": "address",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6021,13 +6001,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 208,
+									"line": 192,
 									"character": 21
 								}
 							]
 						},
 						{
-							"id": 215,
+							"id": 210,
 							"name": "convertEthToWei",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6038,7 +6018,7 @@
 							},
 							"signatures": [
 								{
-									"id": 216,
+									"id": 211,
 									"name": "convertEthToWei",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -6048,7 +6028,7 @@
 									},
 									"parameters": [
 										{
-											"id": 217,
+											"id": 212,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6080,13 +6060,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 220,
+									"line": 204,
 									"character": 24
 								}
 							]
 						},
 						{
-							"id": 193,
+							"id": 188,
 							"name": "createLink",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6097,7 +6077,7 @@
 							},
 							"signatures": [
 								{
-									"id": 194,
+									"id": 189,
 									"name": "createLink",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -6107,7 +6087,7 @@
 									},
 									"parameters": [
 										{
-											"id": 195,
+											"id": 190,
 											"name": "params",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6133,63 +6113,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 127,
+									"line": 111,
 									"character": 19
 								}
 							]
 						},
 						{
-							"id": 176,
-							"name": "createObservable",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true,
-								"isExternal": true,
-								"isPublic": true
-							},
-							"signatures": [
-								{
-									"id": 177,
-									"name": "createObservable",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"parameters": [
-										{
-											"id": 178,
-											"name": "url",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										}
-									],
-									"type": {
-										"type": "reference",
-										"name": "Observable",
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										]
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "Utils.ts",
-									"line": 33,
-									"character": 25
-								}
-							]
-						},
-						{
-							"id": 179,
+							"id": 174,
 							"name": "fetchUrl",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6200,7 +6130,7 @@
 							},
 							"signatures": [
 								{
-									"id": 180,
+									"id": 175,
 									"name": "fetchUrl",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -6210,7 +6140,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 181,
+											"id": 176,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -6219,7 +6149,7 @@
 									],
 									"parameters": [
 										{
-											"id": 182,
+											"id": 177,
 											"name": "endpoint",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6233,7 +6163,7 @@
 											}
 										},
 										{
-											"id": 183,
+											"id": 178,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6264,13 +6194,13 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 47,
+									"line": 36,
 									"character": 23
 								}
 							]
 						},
 						{
-							"id": 204,
+							"id": 199,
 							"name": "formatAmount",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6281,7 +6211,7 @@
 							},
 							"signatures": [
 								{
-									"id": 205,
+									"id": 200,
 									"name": "formatAmount",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -6291,7 +6221,7 @@
 									},
 									"parameters": [
 										{
-											"id": 206,
+											"id": 201,
 											"name": "raw",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6314,7 +6244,7 @@
 											}
 										},
 										{
-											"id": 207,
+											"id": 202,
 											"name": "decimals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6331,20 +6261,20 @@
 									"type": {
 										"type": "reference",
 										"name": "Amount",
-										"id": 22
+										"id": 21
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 158,
+									"line": 142,
 									"character": 21
 								}
 							]
 						},
 						{
-							"id": 208,
+							"id": 203,
 							"name": "formatEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6355,7 +6285,7 @@
 							},
 							"signatures": [
 								{
-									"id": 209,
+									"id": 204,
 									"name": "formatEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -6365,7 +6295,7 @@
 									},
 									"parameters": [
 										{
-											"id": 210,
+											"id": 205,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6379,7 +6309,7 @@
 											}
 										},
 										{
-											"id": 211,
+											"id": 206,
 											"name": "decimals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6396,20 +6326,20 @@
 									"type": {
 										"type": "reference",
 										"name": "TLEvent",
-										"id": 29
+										"id": 28
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 171,
+									"line": 155,
 									"character": 20
 								}
 							]
 						},
 						{
-							"id": 184,
+							"id": 179,
 							"name": "websocketStream",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6420,14 +6350,14 @@
 							},
 							"signatures": [
 								{
-									"id": 185,
+									"id": 180,
 									"name": "websocketStream",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 186,
+											"id": 181,
 											"name": "endpoint",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6438,7 +6368,7 @@
 											}
 										},
 										{
-											"id": 187,
+											"id": 182,
 											"name": "functionName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6449,7 +6379,7 @@
 											}
 										},
 										{
-											"id": 188,
+											"id": 183,
 											"name": "args",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6475,7 +6405,7 @@
 							"sources": [
 								{
 									"fileName": "Utils.ts",
-									"line": 63,
+									"line": 47,
 									"character": 24
 								}
 							]
@@ -6486,24 +6416,23 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								173
+								171
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								189,
-								196,
-								200,
-								212,
-								215,
-								193,
-								176,
-								179,
-								204,
-								208,
-								184
+								184,
+								191,
+								195,
+								207,
+								210,
+								188,
+								174,
+								199,
+								203,
+								179
 							]
 						}
 					],
@@ -6516,7 +6445,7 @@
 					]
 				},
 				{
-					"id": 220,
+					"id": 215,
 					"name": "JsonRPC",
 					"kind": 32,
 					"kindString": "Variable",
@@ -6538,7 +6467,7 @@
 					"defaultValue": " require('simple-jsonrpc-js')"
 				},
 				{
-					"id": 219,
+					"id": 214,
 					"name": "ReconnectingWebSocket",
 					"kind": 32,
 					"kindString": "Variable",
@@ -6560,7 +6489,7 @@
 					"defaultValue": " require('reconnecting-websocket')"
 				},
 				{
-					"id": 221,
+					"id": 216,
 					"name": "WebSocket",
 					"kind": 32,
 					"kindString": "Variable",
@@ -6582,7 +6511,7 @@
 					"defaultValue": " require('html5-websocket')"
 				},
 				{
-					"id": 218,
+					"id": 213,
 					"name": "__DEV__",
 					"kind": 32,
 					"kindString": "Variable",
@@ -6608,17 +6537,17 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						172
+						170
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						220,
-						219,
-						221,
-						218
+						215,
+						214,
+						216,
+						213
 					]
 				}
 			],
@@ -6642,7 +6571,7 @@
 			"originalName": "/home/dh/Projects/trustlines-network/clientlib/src/typings.ts",
 			"children": [
 				{
-					"id": 22,
+					"id": 21,
 					"name": "Amount",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6652,7 +6581,7 @@
 					},
 					"children": [
 						{
-							"id": 25,
+							"id": 24,
 							"name": "decimals",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6663,7 +6592,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 50,
+									"line": 46,
 									"character": 10
 								}
 							],
@@ -6673,7 +6602,7 @@
 							}
 						},
 						{
-							"id": 23,
+							"id": 22,
 							"name": "raw",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6684,7 +6613,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 48,
+									"line": 44,
 									"character": 5
 								}
 							],
@@ -6694,7 +6623,7 @@
 							}
 						},
 						{
-							"id": 24,
+							"id": 23,
 							"name": "value",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6705,7 +6634,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 49,
+									"line": 45,
 									"character": 7
 								}
 							],
@@ -6720,22 +6649,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								25,
-								23,
-								24
+								24,
+								22,
+								23
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 47,
+							"line": 43,
 							"character": 23
 						}
 					]
 				},
 				{
-					"id": 136,
+					"id": 135,
 					"name": "ECSignature",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6745,7 +6674,7 @@
 					},
 					"children": [
 						{
-							"id": 138,
+							"id": 137,
 							"name": "r",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6756,7 +6685,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 204,
+									"line": 200,
 									"character": 3
 								}
 							],
@@ -6766,7 +6695,7 @@
 							}
 						},
 						{
-							"id": 139,
+							"id": 138,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6777,7 +6706,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 205,
+									"line": 201,
 									"character": 3
 								}
 							],
@@ -6787,7 +6716,7 @@
 							}
 						},
 						{
-							"id": 137,
+							"id": 136,
 							"name": "v",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6798,7 +6727,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 203,
+									"line": 199,
 									"character": 3
 								}
 							],
@@ -6813,22 +6742,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								137,
 								138,
-								139,
-								137
+								136
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 202,
+							"line": 198,
 							"character": 28
 						}
 					]
 				},
 				{
-					"id": 26,
+					"id": 25,
 					"name": "EventFilterOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6838,7 +6767,7 @@
 					},
 					"children": [
 						{
-							"id": 28,
+							"id": 27,
 							"name": "fromBlock",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6850,7 +6779,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 56,
+									"line": 52,
 									"character": 11
 								}
 							],
@@ -6860,7 +6789,7 @@
 							}
 						},
 						{
-							"id": 27,
+							"id": 26,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6872,7 +6801,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 55,
+									"line": 51,
 									"character": 6
 								}
 							],
@@ -6887,21 +6816,21 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								28,
-								27
+								27,
+								26
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 54,
+							"line": 50,
 							"character": 35
 						}
 					]
 				},
 				{
-					"id": 154,
+					"id": 153,
 					"name": "ExchangeOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -6911,7 +6840,7 @@
 					},
 					"children": [
 						{
-							"id": 157,
+							"id": 156,
 							"name": "expirationUnixTimestampSec",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6923,7 +6852,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 229,
+									"line": 225,
 									"character": 28
 								}
 							],
@@ -6933,7 +6862,7 @@
 							}
 						},
 						{
-							"id": 159,
+							"id": 158,
 							"name": "gasLimit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6945,7 +6874,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 35,
+									"line": 31,
 									"character": 10
 								}
 							],
@@ -6956,11 +6885,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "TxOptions.gasLimit",
-								"id": 11
+								"id": 10
 							}
 						},
 						{
-							"id": 158,
+							"id": 157,
 							"name": "gasPrice",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6972,7 +6901,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 34,
+									"line": 30,
 									"character": 10
 								}
 							],
@@ -6983,11 +6912,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "TxOptions.gasPrice",
-								"id": 10
+								"id": 9
 							}
 						},
 						{
-							"id": 155,
+							"id": 154,
 							"name": "makerTokenDecimals",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6999,7 +6928,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 227,
+									"line": 223,
 									"character": 20
 								}
 							],
@@ -7009,7 +6938,7 @@
 							}
 						},
 						{
-							"id": 156,
+							"id": 155,
 							"name": "takerTokenDecimals",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7021,7 +6950,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 228,
+									"line": 224,
 									"character": 20
 								}
 							],
@@ -7036,18 +6965,18 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								157,
-								159,
+								156,
 								158,
-								155,
-								156
+								157,
+								154,
+								155
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 226,
+							"line": 222,
 							"character": 32
 						}
 					],
@@ -7055,12 +6984,12 @@
 						{
 							"type": "reference",
 							"name": "TxOptions",
-							"id": 9
+							"id": 8
 						}
 					]
 				},
 				{
-					"id": 140,
+					"id": 139,
 					"name": "FeesRequest",
 					"kind": 256,
 					"kindString": "Interface",
@@ -7070,7 +6999,7 @@
 					},
 					"children": [
 						{
-							"id": 141,
+							"id": 140,
 							"name": "exchangeContractAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7081,7 +7010,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 209,
+									"line": 205,
 									"character": 25
 								}
 							],
@@ -7091,7 +7020,7 @@
 							}
 						},
 						{
-							"id": 142,
+							"id": 141,
 							"name": "expirationUnixTimestampSec",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7102,7 +7031,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 210,
+									"line": 206,
 									"character": 28
 								}
 							],
@@ -7112,8 +7041,92 @@
 							}
 						},
 						{
-							"id": 143,
+							"id": 142,
 							"name": "maker",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 207,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 143,
+							"name": "makerTokenAddress",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 208,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 144,
+							"name": "makerTokenAmount",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 209,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "BigNumber"
+							}
+						},
+						{
+							"id": 145,
+							"name": "salt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 210,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "BigNumber"
+							}
+						},
+						{
+							"id": 146,
+							"name": "taker",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -7133,8 +7146,8 @@
 							}
 						},
 						{
-							"id": 144,
-							"name": "makerTokenAddress",
+							"id": 147,
+							"name": "takerTokenAddress",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -7154,8 +7167,8 @@
 							}
 						},
 						{
-							"id": 145,
-							"name": "makerTokenAmount",
+							"id": 148,
+							"name": "takerTokenAmount",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -7173,73 +7186,46 @@
 								"type": "reference",
 								"name": "BigNumber"
 							}
-						},
+						}
+					],
+					"groups": [
 						{
-							"id": 146,
-							"name": "salt",
+							"title": "Properties",
 							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 214,
-									"character": 6
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "BigNumber"
-							}
-						},
+							"children": [
+								140,
+								141,
+								142,
+								143,
+								144,
+								145,
+								146,
+								147,
+								148
+							]
+						}
+					],
+					"sources": [
 						{
-							"id": 147,
-							"name": "taker",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 215,
-									"character": 7
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						},
+							"fileName": "typings.ts",
+							"line": 204,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 149,
+					"name": "FeesResponse",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"isExternal": true
+					},
+					"children": [
 						{
-							"id": 148,
-							"name": "takerTokenAddress",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 216,
-									"character": 19
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						},
-						{
-							"id": 149,
-							"name": "takerTokenAmount",
+							"id": 150,
+							"name": "feeRecipient",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -7250,63 +7236,6 @@
 								{
 									"fileName": "typings.ts",
 									"line": 217,
-									"character": 18
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "BigNumber"
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								141,
-								142,
-								143,
-								144,
-								145,
-								146,
-								147,
-								148,
-								149
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "typings.ts",
-							"line": 208,
-							"character": 28
-						}
-					]
-				},
-				{
-					"id": 150,
-					"name": "FeesResponse",
-					"kind": 256,
-					"kindString": "Interface",
-					"flags": {
-						"isExported": true,
-						"isExternal": true
-					},
-					"children": [
-						{
-							"id": 151,
-							"name": "feeRecipient",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 221,
 									"character": 14
 								}
 							],
@@ -7316,7 +7245,7 @@
 							}
 						},
 						{
-							"id": 152,
+							"id": 151,
 							"name": "makerFee",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7327,7 +7256,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 222,
+									"line": 218,
 									"character": 10
 								}
 							],
@@ -7337,7 +7266,7 @@
 							}
 						},
 						{
-							"id": 153,
+							"id": 152,
 							"name": "takerFee",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7348,7 +7277,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 223,
+									"line": 219,
 									"character": 10
 								}
 							],
@@ -7363,22 +7292,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								150,
 								151,
-								152,
-								153
+								152
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 220,
+							"line": 216,
 							"character": 29
 						}
 					]
 				},
 				{
-					"id": 64,
+					"id": 63,
 					"name": "Network",
 					"kind": 256,
 					"kindString": "Interface",
@@ -7388,7 +7317,7 @@
 					},
 					"children": [
 						{
-							"id": 66,
+							"id": 65,
 							"name": "abbreviation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7399,7 +7328,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 124,
+									"line": 120,
 									"character": 14
 								}
 							],
@@ -7409,7 +7338,7 @@
 							}
 						},
 						{
-							"id": 67,
+							"id": 66,
 							"name": "address",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7420,7 +7349,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 125,
+									"line": 121,
 									"character": 9
 								}
 							],
@@ -7430,7 +7359,7 @@
 							}
 						},
 						{
-							"id": 65,
+							"id": 64,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7441,7 +7370,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 123,
+									"line": 119,
 									"character": 6
 								}
 							],
@@ -7456,16 +7385,16 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								65,
 								66,
-								67,
-								65
+								64
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 122,
+							"line": 118,
 							"character": 24
 						}
 					],
@@ -7473,12 +7402,12 @@
 						{
 							"type": "reference",
 							"name": "NetworkDetails",
-							"id": 68
+							"id": 67
 						}
 					]
 				},
 				{
-					"id": 68,
+					"id": 67,
 					"name": "NetworkDetails",
 					"kind": 256,
 					"kindString": "Interface",
@@ -7488,7 +7417,7 @@
 					},
 					"children": [
 						{
-							"id": 72,
+							"id": 71,
 							"name": "abbreviation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7499,7 +7428,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 124,
+									"line": 120,
 									"character": 14
 								}
 							],
@@ -7510,11 +7439,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Network.abbreviation",
-								"id": 66
+								"id": 65
 							}
 						},
 						{
-							"id": 73,
+							"id": 72,
 							"name": "address",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7525,7 +7454,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 125,
+									"line": 121,
 									"character": 9
 								}
 							],
@@ -7536,11 +7465,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Network.address",
-								"id": 67
+								"id": 66
 							}
 						},
 						{
-							"id": 69,
+							"id": 68,
 							"name": "decimals",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7551,7 +7480,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 129,
+									"line": 125,
 									"character": 10
 								}
 							],
@@ -7561,7 +7490,7 @@
 							}
 						},
 						{
-							"id": 71,
+							"id": 70,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7572,7 +7501,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 123,
+									"line": 119,
 									"character": 6
 								}
 							],
@@ -7583,11 +7512,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Network.name",
-								"id": 65
+								"id": 64
 							}
 						},
 						{
-							"id": 70,
+							"id": 69,
 							"name": "numUsers",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7598,7 +7527,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 130,
+									"line": 126,
 									"character": 10
 								}
 							],
@@ -7613,18 +7542,18 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								72,
-								73,
-								69,
 								71,
-								70
+								72,
+								68,
+								70,
+								69
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 128,
+							"line": 124,
 							"character": 31
 						}
 					],
@@ -7632,12 +7561,12 @@
 						{
 							"type": "reference",
 							"name": "Network",
-							"id": 64
+							"id": 63
 						}
 					]
 				},
 				{
-					"id": 106,
+					"id": 105,
 					"name": "Order",
 					"kind": 256,
 					"kindString": "Interface",
@@ -7647,7 +7576,7 @@
 					},
 					"children": [
 						{
-							"id": 116,
+							"id": 115,
 							"name": "exchangeContractAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7658,7 +7587,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 188,
+									"line": 184,
 									"character": 25
 								}
 							],
@@ -7668,7 +7597,7 @@
 							}
 						},
 						{
-							"id": 118,
+							"id": 117,
 							"name": "expirationUnixTimestampSec",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7679,7 +7608,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 190,
+									"line": 186,
 									"character": 28
 								}
 							],
@@ -7689,7 +7618,7 @@
 							}
 						},
 						{
-							"id": 117,
+							"id": 116,
 							"name": "feeRecipient",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7700,7 +7629,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 189,
+									"line": 185,
 									"character": 14
 								}
 							],
@@ -7710,7 +7639,7 @@
 							}
 						},
 						{
-							"id": 107,
+							"id": 106,
 							"name": "maker",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7721,7 +7650,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 179,
+									"line": 175,
 									"character": 7
 								}
 							],
@@ -7731,7 +7660,7 @@
 							}
 						},
 						{
-							"id": 109,
+							"id": 108,
 							"name": "makerFee",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7742,18 +7671,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 181,
+									"line": 177,
 									"character": 10
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 113,
+							"id": 112,
 							"name": "makerTokenAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7764,7 +7693,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 185,
+									"line": 181,
 									"character": 19
 								}
 							],
@@ -7774,7 +7703,7 @@
 							}
 						},
 						{
-							"id": 111,
+							"id": 110,
 							"name": "makerTokenAmount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7785,18 +7714,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 183,
+									"line": 179,
 									"character": 18
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 115,
+							"id": 114,
 							"name": "salt",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7807,7 +7736,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 187,
+									"line": 183,
 									"character": 6
 								}
 							],
@@ -7817,7 +7746,7 @@
 							}
 						},
 						{
-							"id": 108,
+							"id": 107,
 							"name": "taker",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7828,7 +7757,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 180,
+									"line": 176,
 									"character": 7
 								}
 							],
@@ -7838,7 +7767,7 @@
 							}
 						},
 						{
-							"id": 110,
+							"id": 109,
 							"name": "takerFee",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7849,18 +7778,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 182,
+									"line": 178,
 									"character": 10
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 114,
+							"id": 113,
 							"name": "takerTokenAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7871,7 +7800,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 186,
+									"line": 182,
 									"character": 19
 								}
 							],
@@ -7881,7 +7810,7 @@
 							}
 						},
 						{
-							"id": 112,
+							"id": 111,
 							"name": "takerTokenAmount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7892,14 +7821,14 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 184,
+									"line": 180,
 									"character": 18
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						}
 					],
@@ -7908,25 +7837,25 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								116,
-								118,
+								115,
 								117,
+								116,
+								106,
+								108,
+								112,
+								110,
+								114,
 								107,
 								109,
 								113,
-								111,
-								115,
-								108,
-								110,
-								114,
-								112
+								111
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 178,
+							"line": 174,
 							"character": 22
 						}
 					],
@@ -7934,12 +7863,12 @@
 						{
 							"type": "reference",
 							"name": "SignedOrder",
-							"id": 122
+							"id": 121
 						}
 					]
 				},
 				{
-					"id": 119,
+					"id": 118,
 					"name": "Orderbook",
 					"kind": 256,
 					"kindString": "Interface",
@@ -7949,7 +7878,7 @@
 					},
 					"children": [
 						{
-							"id": 120,
+							"id": 119,
 							"name": "asks",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7960,7 +7889,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 194,
+									"line": 190,
 									"character": 6
 								}
 							],
@@ -7969,12 +7898,12 @@
 								"elementType": {
 									"type": "reference",
 									"name": "Order",
-									"id": 106
+									"id": 105
 								}
 							}
 						},
 						{
-							"id": 121,
+							"id": 120,
 							"name": "bids",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7985,7 +7914,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 195,
+									"line": 191,
 									"character": 6
 								}
 							],
@@ -7994,7 +7923,7 @@
 								"elementType": {
 									"type": "reference",
 									"name": "Order",
-									"id": 106
+									"id": 105
 								}
 							}
 						}
@@ -8004,21 +7933,21 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								120,
-								121
+								119,
+								120
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 193,
+							"line": 189,
 							"character": 26
 						}
 					]
 				},
 				{
-					"id": 160,
+					"id": 159,
 					"name": "OrderbookOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -8028,7 +7957,7 @@
 					},
 					"children": [
 						{
-							"id": 161,
+							"id": 160,
 							"name": "baseTokenDecimals",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8040,7 +7969,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 233,
+									"line": 229,
 									"character": 19
 								}
 							],
@@ -8050,7 +7979,7 @@
 							}
 						},
 						{
-							"id": 162,
+							"id": 161,
 							"name": "quoteTokenDecimals",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8062,7 +7991,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 234,
+									"line": 230,
 									"character": 20
 								}
 							],
@@ -8077,21 +8006,21 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								161,
-								162
+								160,
+								161
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 232,
+							"line": 228,
 							"character": 33
 						}
 					]
 				},
 				{
-					"id": 55,
+					"id": 54,
 					"name": "PathObject",
 					"kind": 256,
 					"kindString": "Interface",
@@ -8101,7 +8030,7 @@
 					},
 					"children": [
 						{
-							"id": 58,
+							"id": 57,
 							"name": "estimatedGas",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8112,7 +8041,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 111,
+									"line": 107,
 									"character": 14
 								}
 							],
@@ -8122,7 +8051,7 @@
 							}
 						},
 						{
-							"id": 59,
+							"id": 58,
 							"name": "isNoNetwork",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8134,7 +8063,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 112,
+									"line": 108,
 									"character": 13
 								}
 							],
@@ -8144,7 +8073,7 @@
 							}
 						},
 						{
-							"id": 57,
+							"id": 56,
 							"name": "maxFees",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8155,18 +8084,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 110,
+									"line": 106,
 									"character": 9
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 56,
+							"id": 55,
 							"name": "path",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8177,7 +8106,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 109,
+									"line": 105,
 									"character": 6
 								}
 							],
@@ -8195,23 +8124,23 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								58,
-								59,
 								57,
-								56
+								58,
+								56,
+								55
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 108,
+							"line": 104,
 							"character": 27
 						}
 					]
 				},
 				{
-					"id": 60,
+					"id": 59,
 					"name": "PathRaw",
 					"kind": 256,
 					"kindString": "Interface",
@@ -8221,7 +8150,7 @@
 					},
 					"children": [
 						{
-							"id": 63,
+							"id": 62,
 							"name": "estimatedGas",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8232,7 +8161,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 118,
+									"line": 114,
 									"character": 14
 								}
 							],
@@ -8242,7 +8171,7 @@
 							}
 						},
 						{
-							"id": 62,
+							"id": 61,
 							"name": "fees",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8253,7 +8182,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 117,
+									"line": 113,
 									"character": 6
 								}
 							],
@@ -8263,7 +8192,7 @@
 							}
 						},
 						{
-							"id": 61,
+							"id": 60,
 							"name": "path",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8274,7 +8203,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 116,
+									"line": 112,
 									"character": 6
 								}
 							],
@@ -8292,22 +8221,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								63,
 								62,
-								61
+								61,
+								60
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 115,
+							"line": 111,
 							"character": 24
 						}
 					]
 				},
 				{
-					"id": 16,
+					"id": 15,
 					"name": "PaymentOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -8317,35 +8246,8 @@
 					},
 					"children": [
 						{
-							"id": 19,
+							"id": 18,
 							"name": "decimals",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true,
-								"isOptional": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 39,
-									"character": 10
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "TLOptions.decimals",
-								"id": 13
-							}
-						},
-						{
-							"id": 21,
-							"name": "gasLimit",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -8366,12 +8268,39 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"name": "TxOptions.gasLimit",
-								"id": 11
+								"name": "TLOptions.decimals",
+								"id": 12
 							}
 						},
 						{
 							"id": 20,
+							"name": "gasLimit",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 31,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "TxOptions.gasLimit",
+								"id": 10
+							}
+						},
+						{
+							"id": 19,
 							"name": "gasPrice",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8383,7 +8312,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 34,
+									"line": 30,
 									"character": 10
 								}
 							],
@@ -8394,11 +8323,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "TxOptions.gasPrice",
-								"id": 10
+								"id": 9
 							}
 						},
 						{
-							"id": 18,
+							"id": 17,
 							"name": "maximumFees",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8410,7 +8339,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 44,
+									"line": 40,
 									"character": 13
 								}
 							],
@@ -8420,7 +8349,7 @@
 							}
 						},
 						{
-							"id": 17,
+							"id": 16,
 							"name": "maximumHops",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8432,7 +8361,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 43,
+									"line": 39,
 									"character": 13
 								}
 							],
@@ -8447,18 +8376,18 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								19,
-								21,
-								20,
 								18,
-								17
+								20,
+								19,
+								17,
+								16
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 42,
+							"line": 38,
 							"character": 31
 						}
 					],
@@ -8466,12 +8395,12 @@
 						{
 							"type": "reference",
 							"name": "TLOptions",
-							"id": 12
+							"id": 11
 						}
 					]
 				},
 				{
-					"id": 122,
+					"id": 121,
 					"name": "SignedOrder",
 					"kind": 256,
 					"kindString": "Interface",
@@ -8481,7 +8410,7 @@
 					},
 					"children": [
 						{
-							"id": 123,
+							"id": 122,
 							"name": "ecSignature",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8492,18 +8421,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 199,
+									"line": 195,
 									"character": 13
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "ECSignature",
-								"id": 136
+								"id": 135
 							}
 						},
 						{
-							"id": 133,
+							"id": 132,
 							"name": "exchangeContractAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8514,7 +8443,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 188,
+									"line": 184,
 									"character": 25
 								}
 							],
@@ -8525,11 +8454,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.exchangeContractAddress",
-								"id": 116
+								"id": 115
 							}
 						},
 						{
-							"id": 135,
+							"id": 134,
 							"name": "expirationUnixTimestampSec",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8540,7 +8469,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 190,
+									"line": 186,
 									"character": 28
 								}
 							],
@@ -8551,11 +8480,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.expirationUnixTimestampSec",
-								"id": 118
+								"id": 117
 							}
 						},
 						{
-							"id": 134,
+							"id": 133,
 							"name": "feeRecipient",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8566,7 +8495,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 189,
+									"line": 185,
 									"character": 14
 								}
 							],
@@ -8577,11 +8506,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.feeRecipient",
-								"id": 117
+								"id": 116
 							}
 						},
 						{
-							"id": 124,
+							"id": 123,
 							"name": "maker",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8592,7 +8521,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 179,
+									"line": 175,
 									"character": 7
 								}
 							],
@@ -8603,11 +8532,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.maker",
-								"id": 107
+								"id": 106
 							}
 						},
 						{
-							"id": 126,
+							"id": 125,
 							"name": "makerFee",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8618,23 +8547,23 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 181,
+									"line": 177,
 									"character": 10
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							},
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.makerFee",
-								"id": 109
+								"id": 108
 							}
 						},
 						{
-							"id": 130,
+							"id": 129,
 							"name": "makerTokenAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8645,7 +8574,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 185,
+									"line": 181,
 									"character": 19
 								}
 							],
@@ -8656,11 +8585,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.makerTokenAddress",
-								"id": 113
+								"id": 112
 							}
 						},
 						{
-							"id": 128,
+							"id": 127,
 							"name": "makerTokenAmount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8671,23 +8600,23 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 183,
+									"line": 179,
 									"character": 18
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							},
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.makerTokenAmount",
-								"id": 111
+								"id": 110
 							}
 						},
 						{
-							"id": 132,
+							"id": 131,
 							"name": "salt",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8698,7 +8627,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 187,
+									"line": 183,
 									"character": 6
 								}
 							],
@@ -8709,11 +8638,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.salt",
-								"id": 115
+								"id": 114
 							}
 						},
 						{
-							"id": 125,
+							"id": 124,
 							"name": "taker",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8724,7 +8653,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 180,
+									"line": 176,
 									"character": 7
 								}
 							],
@@ -8735,11 +8664,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.taker",
-								"id": 108
+								"id": 107
 							}
 						},
 						{
-							"id": 127,
+							"id": 126,
 							"name": "takerFee",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8750,23 +8679,23 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 182,
+									"line": 178,
 									"character": 10
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							},
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.takerFee",
-								"id": 110
+								"id": 109
 							}
 						},
 						{
-							"id": 131,
+							"id": 130,
 							"name": "takerTokenAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8777,7 +8706,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 186,
+									"line": 182,
 									"character": 19
 								}
 							],
@@ -8788,11 +8717,11 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.takerTokenAddress",
-								"id": 114
+								"id": 113
 							}
 						},
 						{
-							"id": 129,
+							"id": 128,
 							"name": "takerTokenAmount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8803,19 +8732,19 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 184,
+									"line": 180,
 									"character": 18
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							},
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "Order.takerTokenAmount",
-								"id": 112
+								"id": 111
 							}
 						}
 					],
@@ -8824,26 +8753,26 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								123,
-								133,
-								135,
+								122,
+								132,
 								134,
+								133,
+								123,
+								125,
+								129,
+								127,
+								131,
 								124,
 								126,
 								130,
-								128,
-								132,
-								125,
-								127,
-								131,
-								129
+								128
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 198,
+							"line": 194,
 							"character": 28
 						}
 					],
@@ -8851,12 +8780,12 @@
 						{
 							"type": "reference",
 							"name": "Order",
-							"id": 106
+							"id": 105
 						}
 					]
 				},
 				{
-					"id": 29,
+					"id": 28,
 					"name": "TLEvent",
 					"kind": 256,
 					"kindString": "Interface",
@@ -8866,7 +8795,7 @@
 					},
 					"children": [
 						{
-							"id": 39,
+							"id": 38,
 							"name": "address",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8878,7 +8807,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 69,
+									"line": 65,
 									"character": 9
 								}
 							],
@@ -8888,7 +8817,7 @@
 							}
 						},
 						{
-							"id": 42,
+							"id": 41,
 							"name": "amount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8900,18 +8829,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 74,
+									"line": 70,
 									"character": 8
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 33,
+							"id": 32,
 							"name": "blockNumber",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8922,7 +8851,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 63,
+									"line": 59,
 									"character": 13
 								}
 							],
@@ -8932,7 +8861,7 @@
 							}
 						},
 						{
-							"id": 38,
+							"id": 37,
 							"name": "direction",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8943,7 +8872,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 68,
+									"line": 64,
 									"character": 11
 								}
 							],
@@ -8953,7 +8882,7 @@
 							}
 						},
 						{
-							"id": 36,
+							"id": 35,
 							"name": "from",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8964,7 +8893,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 66,
+									"line": 62,
 									"character": 6
 								}
 							],
@@ -8974,7 +8903,7 @@
 							}
 						},
 						{
-							"id": 40,
+							"id": 39,
 							"name": "given",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8986,18 +8915,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 71,
+									"line": 67,
 									"character": 7
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 30,
+							"id": 29,
 							"name": "networkAddress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9008,7 +8937,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 60,
+									"line": 56,
 									"character": 16
 								}
 							],
@@ -9018,7 +8947,7 @@
 							}
 						},
 						{
-							"id": 41,
+							"id": 40,
 							"name": "received",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9030,18 +8959,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 72,
+									"line": 68,
 									"character": 10
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 34,
+							"id": 33,
 							"name": "status",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9052,7 +8981,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 64,
+									"line": 60,
 									"character": 8
 								}
 							],
@@ -9062,7 +8991,7 @@
 							}
 						},
 						{
-							"id": 32,
+							"id": 31,
 							"name": "timestamp",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9073,7 +9002,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 62,
+									"line": 58,
 									"character": 11
 								}
 							],
@@ -9083,7 +9012,7 @@
 							}
 						},
 						{
-							"id": 37,
+							"id": 36,
 							"name": "to",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9094,7 +9023,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 67,
+									"line": 63,
 									"character": 4
 								}
 							],
@@ -9104,7 +9033,7 @@
 							}
 						},
 						{
-							"id": 35,
+							"id": 34,
 							"name": "transactionId",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9115,7 +9044,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 65,
+									"line": 61,
 									"character": 15
 								}
 							],
@@ -9125,7 +9054,7 @@
 							}
 						},
 						{
-							"id": 31,
+							"id": 30,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9136,7 +9065,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 61,
+									"line": 57,
 									"character": 6
 								}
 							],
@@ -9151,26 +9080,26 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								39,
-								42,
-								33,
 								38,
-								36,
-								40,
-								30,
 								41,
-								34,
 								32,
 								37,
 								35,
-								31
+								39,
+								29,
+								40,
+								33,
+								31,
+								36,
+								34,
+								30
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 59,
+							"line": 55,
 							"character": 24
 						}
 					]
@@ -9239,31 +9168,6 @@
 							}
 						},
 						{
-							"id": 7,
-							"name": "pollInterval",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true,
-								"isOptional": true
-							},
-							"comment": {
-								"shortText": "Polling interval in ms for HTTP/HTTPS Oberservables"
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 26,
-									"character": 14
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						},
-						{
 							"id": 5,
 							"name": "port",
 							"kind": 1024,
@@ -9314,7 +9218,7 @@
 							}
 						},
 						{
-							"id": 8,
+							"id": 7,
 							"name": "wsProtocol",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9329,7 +9233,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 30,
+									"line": 26,
 									"character": 12
 								}
 							],
@@ -9346,10 +9250,9 @@
 							"children": [
 								4,
 								6,
-								7,
 								5,
 								3,
-								8
+								7
 							]
 						}
 					],
@@ -9362,7 +9265,7 @@
 					]
 				},
 				{
-					"id": 12,
+					"id": 11,
 					"name": "TLOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -9372,30 +9275,8 @@
 					},
 					"children": [
 						{
-							"id": 13,
+							"id": 12,
 							"name": "decimals",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true,
-								"isOptional": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 39,
-									"character": 10
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						},
-						{
-							"id": 15,
-							"name": "gasLimit",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -9413,15 +9294,37 @@
 							"type": {
 								"type": "intrinsic",
 								"name": "number"
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"name": "TxOptions.gasLimit",
-								"id": 11
 							}
 						},
 						{
 							"id": 14,
+							"name": "gasLimit",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 31,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "TxOptions.gasLimit",
+								"id": 10
+							}
+						},
+						{
+							"id": 13,
 							"name": "gasPrice",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9433,7 +9336,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 34,
+									"line": 30,
 									"character": 10
 								}
 							],
@@ -9444,7 +9347,7 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "TxOptions.gasPrice",
-								"id": 10
+								"id": 9
 							}
 						}
 					],
@@ -9453,16 +9356,16 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								13,
-								15,
-								14
+								12,
+								14,
+								13
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 38,
+							"line": 34,
 							"character": 26
 						}
 					],
@@ -9470,19 +9373,19 @@
 						{
 							"type": "reference",
 							"name": "TxOptions",
-							"id": 9
+							"id": 8
 						}
 					],
 					"extendedBy": [
 						{
 							"type": "reference",
 							"name": "PaymentOptions",
-							"id": 16
+							"id": 15
 						}
 					]
 				},
 				{
-					"id": 50,
+					"id": 49,
 					"name": "TLTxObject",
 					"kind": 256,
 					"kindString": "Interface",
@@ -9492,7 +9395,7 @@
 					},
 					"children": [
 						{
-							"id": 54,
+							"id": 53,
 							"name": "ethFees",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9503,23 +9406,23 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 80,
+									"line": 76,
 									"character": 9
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							},
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "TxObject.ethFees",
-								"id": 45
+								"id": 44
 							}
 						},
 						{
-							"id": 52,
+							"id": 51,
 							"name": "maxFees",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9530,18 +9433,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 105,
+									"line": 101,
 									"character": 9
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 51,
+							"id": 50,
 							"name": "path",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9552,7 +9455,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 104,
+									"line": 100,
 									"character": 6
 								}
 							],
@@ -9565,7 +9468,7 @@
 							}
 						},
 						{
-							"id": 53,
+							"id": 52,
 							"name": "rawTx",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9576,7 +9479,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 79,
+									"line": 75,
 									"character": 7
 								}
 							],
@@ -9587,7 +9490,7 @@
 							"inheritedFrom": {
 								"type": "reference",
 								"name": "TxObject.rawTx",
-								"id": 44
+								"id": 43
 							}
 						}
 					],
@@ -9596,17 +9499,17 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								54,
-								52,
+								53,
 								51,
-								53
+								50,
+								52
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 103,
+							"line": 99,
 							"character": 27
 						}
 					],
@@ -9614,12 +9517,12 @@
 						{
 							"type": "reference",
 							"name": "TxObject",
-							"id": 43
+							"id": 42
 						}
 					]
 				},
 				{
-					"id": 90,
+					"id": 89,
 					"name": "TrustlineObject",
 					"kind": 256,
 					"kindString": "Interface",
@@ -9629,8 +9532,94 @@
 					},
 					"children": [
 						{
-							"id": 92,
+							"id": 91,
 							"name": "address",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 155,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 92,
+							"name": "balance",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 156,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Amount",
+								"id": 21
+							}
+						},
+						{
+							"id": 93,
+							"name": "given",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 157,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Amount",
+								"id": 21
+							}
+						},
+						{
+							"id": 90,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 154,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 95,
+							"name": "leftGiven",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -9641,17 +9630,18 @@
 								{
 									"fileName": "typings.ts",
 									"line": 159,
-									"character": 9
+									"character": 11
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "string"
+								"type": "reference",
+								"name": "Amount",
+								"id": 21
 							}
 						},
 						{
-							"id": 93,
-							"name": "balance",
+							"id": 96,
+							"name": "leftReceived",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -9662,40 +9652,18 @@
 								{
 									"fileName": "typings.ts",
 									"line": 160,
-									"character": 9
+									"character": 14
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
 							"id": 94,
-							"name": "given",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 161,
-									"character": 7
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Amount",
-								"id": 22
-							}
-						},
-						{
-							"id": 91,
-							"name": "id",
+							"name": "received",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -9706,78 +9674,13 @@
 								{
 									"fileName": "typings.ts",
 									"line": 158,
-									"character": 4
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						},
-						{
-							"id": 96,
-							"name": "leftGiven",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 163,
-									"character": 11
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Amount",
-								"id": 22
-							}
-						},
-						{
-							"id": 97,
-							"name": "leftReceived",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 164,
-									"character": 14
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Amount",
-								"id": 22
-							}
-						},
-						{
-							"id": 95,
-							"name": "received",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 162,
 									"character": 10
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						}
 					],
@@ -9786,26 +9689,26 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								91,
 								92,
 								93,
-								94,
-								91,
+								90,
+								95,
 								96,
-								97,
-								95
+								94
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 157,
+							"line": 153,
 							"character": 32
 						}
 					]
 				},
 				{
-					"id": 98,
+					"id": 97,
 					"name": "TrustlineRaw",
 					"kind": 256,
 					"kindString": "Interface",
@@ -9815,7 +9718,7 @@
 					},
 					"children": [
 						{
-							"id": 100,
+							"id": 99,
 							"name": "address",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9826,7 +9729,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 169,
+									"line": 165,
 									"character": 9
 								}
 							],
@@ -9836,7 +9739,7 @@
 							}
 						},
 						{
-							"id": 101,
+							"id": 100,
 							"name": "balance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9847,7 +9750,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 170,
+									"line": 166,
 									"character": 9
 								}
 							],
@@ -9857,7 +9760,7 @@
 							}
 						},
 						{
-							"id": 102,
+							"id": 101,
 							"name": "given",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9868,7 +9771,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 171,
+									"line": 167,
 									"character": 7
 								}
 							],
@@ -9878,7 +9781,7 @@
 							}
 						},
 						{
-							"id": 99,
+							"id": 98,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9889,7 +9792,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 168,
+									"line": 164,
 									"character": 4
 								}
 							],
@@ -9899,7 +9802,7 @@
 							}
 						},
 						{
-							"id": 104,
+							"id": 103,
 							"name": "leftGiven",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9910,7 +9813,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 173,
+									"line": 169,
 									"character": 11
 								}
 							],
@@ -9920,7 +9823,7 @@
 							}
 						},
 						{
-							"id": 105,
+							"id": 104,
 							"name": "leftReceived",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9931,7 +9834,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 174,
+									"line": 170,
 									"character": 14
 								}
 							],
@@ -9941,7 +9844,7 @@
 							}
 						},
 						{
-							"id": 103,
+							"id": 102,
 							"name": "received",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9952,7 +9855,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 172,
+									"line": 168,
 									"character": 10
 								}
 							],
@@ -9967,26 +9870,26 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								99,
 								100,
 								101,
-								102,
-								99,
+								98,
+								103,
 								104,
-								105,
-								103
+								102
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 167,
+							"line": 163,
 							"character": 29
 						}
 					]
 				},
 				{
-					"id": 46,
+					"id": 45,
 					"name": "TxInfos",
 					"kind": 256,
 					"kindString": "Interface",
@@ -9999,7 +9902,7 @@
 					},
 					"children": [
 						{
-							"id": 48,
+							"id": 47,
 							"name": "balance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10013,7 +9916,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 95,
+									"line": 91,
 									"character": 9
 								}
 							],
@@ -10023,7 +9926,7 @@
 							}
 						},
 						{
-							"id": 47,
+							"id": 46,
 							"name": "gasPrice",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10037,7 +9940,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 91,
+									"line": 87,
 									"character": 10
 								}
 							],
@@ -10047,7 +9950,7 @@
 							}
 						},
 						{
-							"id": 49,
+							"id": 48,
 							"name": "nonce",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10061,7 +9964,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 99,
+									"line": 95,
 									"character": 7
 								}
 							],
@@ -10076,22 +9979,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								48,
 								47,
-								49
+								46,
+								48
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 87,
+							"line": 83,
 							"character": 24
 						}
 					]
 				},
 				{
-					"id": 43,
+					"id": 42,
 					"name": "TxObject",
 					"kind": 256,
 					"kindString": "Interface",
@@ -10101,7 +10004,7 @@
 					},
 					"children": [
 						{
-							"id": 45,
+							"id": 44,
 							"name": "ethFees",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10112,18 +10015,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 80,
+									"line": 76,
 									"character": 9
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 44,
+							"id": 43,
 							"name": "rawTx",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10134,7 +10037,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 79,
+									"line": 75,
 									"character": 7
 								}
 							],
@@ -10149,15 +10052,15 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								45,
-								44
+								44,
+								43
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 78,
+							"line": 74,
 							"character": 25
 						}
 					],
@@ -10165,12 +10068,12 @@
 						{
 							"type": "reference",
 							"name": "TLTxObject",
-							"id": 50
+							"id": 49
 						}
 					]
 				},
 				{
-					"id": 9,
+					"id": 8,
 					"name": "TxOptions",
 					"kind": 256,
 					"kindString": "Interface",
@@ -10180,7 +10083,7 @@
 					},
 					"children": [
 						{
-							"id": 11,
+							"id": 10,
 							"name": "gasLimit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10192,7 +10095,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 35,
+									"line": 31,
 									"character": 10
 								}
 							],
@@ -10202,7 +10105,7 @@
 							}
 						},
 						{
-							"id": 10,
+							"id": 9,
 							"name": "gasPrice",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10214,7 +10117,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 34,
+									"line": 30,
 									"character": 10
 								}
 							],
@@ -10229,15 +10132,15 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								11,
-								10
+								10,
+								9
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 33,
+							"line": 29,
 							"character": 26
 						}
 					],
@@ -10245,17 +10148,17 @@
 						{
 							"type": "reference",
 							"name": "TLOptions",
-							"id": 12
+							"id": 11
 						},
 						{
 							"type": "reference",
 							"name": "ExchangeOptions",
-							"id": 154
+							"id": 153
 						}
 					]
 				},
 				{
-					"id": 86,
+					"id": 85,
 					"name": "UserObject",
 					"kind": 256,
 					"kindString": "Interface",
@@ -10265,7 +10168,7 @@
 					},
 					"children": [
 						{
-							"id": 87,
+							"id": 86,
 							"name": "address",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10276,7 +10179,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 151,
+									"line": 147,
 									"character": 9
 								}
 							],
@@ -10286,7 +10189,7 @@
 							}
 						},
 						{
-							"id": 89,
+							"id": 88,
 							"name": "keystore",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10297,7 +10200,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 153,
+									"line": 149,
 									"character": 10
 								}
 							],
@@ -10307,7 +10210,7 @@
 							}
 						},
 						{
-							"id": 88,
+							"id": 87,
 							"name": "pubKey",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10318,7 +10221,7 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 152,
+									"line": 148,
 									"character": 8
 								}
 							],
@@ -10333,22 +10236,22 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								87,
-								89,
-								88
+								86,
+								88,
+								87
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 150,
+							"line": 146,
 							"character": 27
 						}
 					]
 				},
 				{
-					"id": 74,
+					"id": 73,
 					"name": "UserOverview",
 					"kind": 256,
 					"kindString": "Interface",
@@ -10358,7 +10261,7 @@
 					},
 					"children": [
 						{
-							"id": 76,
+							"id": 75,
 							"name": "balance",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10369,18 +10272,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 135,
+									"line": 131,
 									"character": 9
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 77,
+							"id": 76,
 							"name": "given",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10391,41 +10294,19 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 136,
+									"line": 132,
 									"character": 7
 								}
 							],
 							"type": {
 								"type": "reference",
 								"name": "Amount",
-								"id": 22
+								"id": 21
 							}
 						},
 						{
-							"id": 79,
+							"id": 78,
 							"name": "leftGiven",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 138,
-									"character": 11
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Amount",
-								"id": 22
-							}
-						},
-						{
-							"id": 75,
-							"name": "leftReceived",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
@@ -10436,134 +10317,17 @@
 								{
 									"fileName": "typings.ts",
 									"line": 134,
-									"character": 14
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Amount",
-								"id": 22
-							}
-						},
-						{
-							"id": 78,
-							"name": "received",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 137,
-									"character": 10
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Amount",
-								"id": 22
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								76,
-								77,
-								79,
-								75,
-								78
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "typings.ts",
-							"line": 133,
-							"character": 29
-						}
-					]
-				},
-				{
-					"id": 80,
-					"name": "UserOverviewRaw",
-					"kind": 256,
-					"kindString": "Interface",
-					"flags": {
-						"isExported": true,
-						"isExternal": true
-					},
-					"children": [
-						{
-							"id": 82,
-							"name": "balance",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 143,
-									"character": 9
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						},
-						{
-							"id": 83,
-							"name": "given",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 144,
-									"character": 7
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						},
-						{
-							"id": 85,
-							"name": "leftGiven",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "typings.ts",
-									"line": 146,
 									"character": 11
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "string"
+								"type": "reference",
+								"name": "Amount",
+								"id": 21
 							}
 						},
 						{
-							"id": 81,
+							"id": 74,
 							"name": "leftReceived",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10574,17 +10338,18 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 142,
+									"line": 130,
 									"character": 14
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "string"
+								"type": "reference",
+								"name": "Amount",
+								"id": 21
 							}
 						},
 						{
-							"id": 84,
+							"id": 77,
 							"name": "received",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10595,7 +10360,145 @@
 							"sources": [
 								{
 									"fileName": "typings.ts",
-									"line": 145,
+									"line": 133,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Amount",
+								"id": 21
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								75,
+								76,
+								78,
+								74,
+								77
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "typings.ts",
+							"line": 129,
+							"character": 29
+						}
+					]
+				},
+				{
+					"id": 79,
+					"name": "UserOverviewRaw",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true,
+						"isExternal": true
+					},
+					"children": [
+						{
+							"id": 81,
+							"name": "balance",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 139,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 82,
+							"name": "given",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 140,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 84,
+							"name": "leftGiven",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 142,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 80,
+							"name": "leftReceived",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 138,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 83,
+							"name": "received",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "typings.ts",
+									"line": 141,
 									"character": 10
 								}
 							],
@@ -10610,18 +10513,18 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								82,
-								83,
-								85,
 								81,
-								84
+								82,
+								84,
+								80,
+								83
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "typings.ts",
-							"line": 141,
+							"line": 137,
 							"character": 32
 						}
 					]
@@ -10632,33 +10535,33 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						22,
-						136,
-						26,
-						154,
-						140,
-						150,
-						64,
-						68,
-						106,
-						119,
-						160,
-						55,
-						60,
-						16,
-						122,
-						29,
+						21,
+						135,
+						25,
+						153,
+						139,
+						149,
+						63,
+						67,
+						105,
+						118,
+						159,
+						54,
+						59,
+						15,
+						121,
+						28,
 						2,
-						12,
-						50,
-						90,
-						98,
-						46,
-						43,
-						9,
-						86,
-						74,
-						80
+						11,
+						49,
+						89,
+						97,
+						45,
+						42,
+						8,
+						85,
+						73,
+						79
 					]
 				}
 			],
@@ -10676,18 +10579,18 @@
 			"title": "External modules",
 			"kind": 1,
 			"children": [
-				163,
-				430,
-				306,
-				330,
-				443,
-				501,
-				350,
-				515,
-				222,
-				389,
-				247,
-				171,
+				162,
+				419,
+				299,
+				323,
+				432,
+				490,
+				339,
+				504,
+				217,
+				378,
+				242,
+				169,
 				1
 			]
 		}
