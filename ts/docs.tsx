@@ -19,11 +19,20 @@ const IntroMarkdown = require('md/introduction');
 const InstallMarkdown = require('md/installation');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const AsyncMarkdown = require('md/async');
+// tslint:disable-next-line:no-implicit-dependencies no-var-requires
+const UserMarkdown = require('md/guides/user');
+// tslint:disable-next-line:no-implicit-dependencies no-var-requires
+const TrustlineMarkdown = require('md/guides/trustline');
+// tslint:disable-next-line:no-implicit-dependencies no-var-requires
+const TransferMarkdown = require('md/guides/transfer');
 
 const docSections = {
     introduction: 'introduction',
     installation: 'installation',
     async: 'async',
+    userGuide: 'create user',
+    trustlineGuide: 'set up trustline',
+    transferGuide: 'transfer',
     tlNetwork: 'tlNetwork',
     user: 'user',
     currencyNetwork: 'currencyNetwork',
@@ -42,18 +51,28 @@ const docsInfoConfig: DocsInfoConfig = {
         introduction: [docSections.introduction],
         installation: [docSections.installation],
         async: [docSections.async],
-        tlNetwork: [docSections.tlNetwork],
-        user: [docSections.user],
-        currencyNetwork: [docSections.currencyNetwork],
-        trustline: [docSections.trustline],
-        payment: [docSections.payment],
-        event: [docSections.event],
-        types: [docSections.typings],
+        guides: [
+            docSections.userGuide,
+            docSections.trustlineGuide,
+            docSections.transferGuide,
+        ],
+        api: [
+            docSections.tlNetwork,
+            docSections.user,
+            docSections.currencyNetwork,
+            docSections.trustline,
+            docSections.payment,
+            docSections.event,
+            docSections.typings,
+        ],
     },
     sectionNameToMarkdown: {
         [docSections.introduction]: IntroMarkdown,
         [docSections.installation]: InstallMarkdown,
         [docSections.async]: AsyncMarkdown,
+        [docSections.userGuide]: UserMarkdown,
+        [docSections.trustlineGuide]: TrustlineMarkdown,
+        [docSections.transferGuide]: TransferMarkdown,
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
