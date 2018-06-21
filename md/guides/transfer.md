@@ -1,4 +1,4 @@
-The requirement for a successfull trustline transfer is a path with enough capacity from the sender to the receiver in the currency network. It is also to mention that the sender is always the iniated user.
+The requirement for a successful trustline transfer is a path with enough capacity from the sender to the receiver in the currency network. It is also to mention that the sender is always the iniated user.
 
 #### Trustline Transfer
 ```javascript
