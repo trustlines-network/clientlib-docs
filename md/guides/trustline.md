@@ -1,4 +1,4 @@
-To set up a trustline make sure that a user instance is provided either by creating a new one or loading an existing keystore. Also note that the account has to have enough ETH to actually create transactions.
+To set up a trustline, make sure that a user instance is provided either by creating a new one or loading an existing keystore. Also note that the account has to have enough ETH to actually create transactions.
 
 #### 1. Request for establishing a trustline
 As trustline agreements are bilateral agreements, they have to be accepted by both parties. The first step to establish a trustline is therefore to create an initial request or proposal to the counterparty.
