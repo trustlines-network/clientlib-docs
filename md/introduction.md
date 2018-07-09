@@ -8,7 +8,7 @@ Check our sequence diagrams to get an idea on the current user flow:
 
 [![sequence_onboarding.png](http://i.imgur.com/Tc1ssO9.png "trustlines user flow onboarding")](http://i.imgur.com/Bd3FhkT.png)
 
-### Credit line update
+### Trustline update
 
 [![sequence_creditlineupdate.png](http://i.imgur.com/SOMZogq.png "trustlines user flow credit line update")](http://i.imgur.com/6ANndDb.png)
 
