@@ -11,7 +11,7 @@ import {
     TypeDocNode,
 } from '@0xproject/react-docs';
 
-import * as v0TypeDocJson from './json/0.1.0.json';
+import * as v0TypeDocJson from './json/0.0.1.json';
 
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const IntroMarkdown = require('md/introduction');
@@ -25,6 +25,8 @@ const UserMarkdown = require('md/guides/user');
 const TrustlineMarkdown = require('md/guides/trustline');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const TransferMarkdown = require('md/guides/transfer');
+// tslint:disable-next-line:no-implicit-dependencies no-var-requires
+const ExchangeMarkdown = require('md/guides/dex');
 
 const docSections = {
     introduction: 'introduction',
@@ -33,12 +35,15 @@ const docSections = {
     userGuide: 'create user',
     trustlineGuide: 'set up trustline',
     transferGuide: 'transfer',
+    exchangeGuide: 'make and take an order',
     tlNetwork: 'tlNetwork',
     user: 'user',
     currencyNetwork: 'currencyNetwork',
     trustline: 'trustline',
     payment: 'payment',
     event: 'event',
+    ethWrapper: 'ethWrapper',
+    exchange: 'exchange',
     typings: constants.TYPES_SECTION_NAME,
 };
 
@@ -55,6 +60,7 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.userGuide,
             docSections.trustlineGuide,
             docSections.transferGuide,
+            docSections.exchangeGuide,
         ],
         api: [
             docSections.tlNetwork,
@@ -63,6 +69,8 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.trustline,
             docSections.payment,
             docSections.event,
+            docSections.ethWrapper,
+            docSections.exchange,
             docSections.typings,
         ],
     },
@@ -73,6 +81,7 @@ const docsInfoConfig: DocsInfoConfig = {
         [docSections.userGuide]: UserMarkdown,
         [docSections.trustlineGuide]: TrustlineMarkdown,
         [docSections.transferGuide]: TransferMarkdown,
+        [docSections.exchangeGuide]: ExchangeMarkdown,
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
@@ -81,6 +90,8 @@ const docsInfoConfig: DocsInfoConfig = {
         [docSections.trustline]: ['"Trustline"'],
         [docSections.payment]: ['"Payment"'],
         [docSections.event]: ['"Event"'],
+        [docSections.exchange]: ['"Exchange"'],
+        [docSections.ethWrapper]: ['"EthWrapper"'],
         [docSections.typings]: ['"typings"'],
     },
     menuSubsectionToVersionWhenIntroduced: {},
@@ -128,6 +139,8 @@ const docsInfoConfig: DocsInfoConfig = {
             Trustline: docSections.trustline,
             Payment: docSections.payment,
             Event: docSections.event,
+            EthWrapper: docSections.ethWrapper,
+            Exchange: docSections.exchange,
         },
     },
 };
