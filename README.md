@@ -37,3 +37,18 @@ yarn lint
 ```bash
 yarn deploy
 ```
+
+### How to add or change documentation content
+
+All text files are `.md`s in the [/md](https://github.com/trustlines-network/clientlib-docs/tree/master/md) folder. You can modify existing documenation text in the individual files.
+
+To add a new `.md` file, you need to add your new files to `ts/docs.tsx`:
+
+1. Link newly created `md` file by defining `const` after `import * as v0TypeDocJson from './json/x.x.x.json';`
+2. Add new sections in `const docSections = {`
+3. Define the order of the added sections in `const docsInfoConfig: DocsInfoConfig = {`
+4. Add ... after `sectionNameToMarkdown: {`
+5. Define the heading for the new section in `sectionNameToModulePath: {`
+6. Add ... after `typeNameToDocSection: {`
+
+
