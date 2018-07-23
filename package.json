@@ -1,9 +1,9 @@
 {
-    "name": "trustlines-network-clientlib-docs",
+    "name": "trustlines-network-contracts-docs",
     "engines": {
         "node": ">=6.12"
     },
-    "description": "react-docs documentation for the trustlines-network clientlib",
+    "description": "react-docs documentation for the trustlines-network contracts",
     "scripts": {
         "lint": "tslint --project .",
         "build": "tsc",
@@ -13,14 +13,14 @@
         "dev": "webpack-dev-server --open",
         "deploy": "yarn build:prod && git add ./docs && git commit -m 'add new build' && git push"
     },
-    "author": "Dong-Ha Kim",
+    "author": "Bernd",
     "bugs": {
-        "url": "https://github.com/trustlines-network/clientlib/issues"
+        "url": "https://github.com/trustlines-network/contracts/issues"
     },
-    "homepage": "https://github.com/trustlines-network/clientlib/README.md",
+    "homepage": "https://github.com/trustlines-network/contracts/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/trustlines-network/clientlib.git"
+        "url": "https://github.com/trustlines-network/contracts.git"
     },
     "devDependencies": {
         "@0xproject/tslint-config": "^0.4.18",

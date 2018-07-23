@@ -16,118 +16,41 @@ import * as v0TypeDocJson from './json/0.1.0.json';
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const IntroMarkdown = require('md/introduction');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const InstallMarkdown = require('md/installation');
+const DeploymenttoolsMarkdown = require('md/deploymenttools');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const AsyncMarkdown = require('md/async');
+const DevelopmentMarkdown = require('md/development');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const UserMarkdown = require('md/guides/user');
-// tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const TrustlineMarkdown = require('md/guides/trustline');
-// tslint:disable-next-line:no-implicit-dependencies no-var-requires
-const TransferMarkdown = require('md/guides/transfer');
+const DeploymentMarkdown = require('md/deployment');
 
 const docSections = {
     introduction: 'introduction',
-    installation: 'installation',
-    async: 'async',
-    userGuide: 'create user',
-    trustlineGuide: 'set up trustline',
-    transferGuide: 'transfer',
-    tlNetwork: 'tlNetwork',
-    user: 'user',
-    currencyNetwork: 'currencyNetwork',
-    trustline: 'trustline',
-    payment: 'payment',
-    event: 'event',
-    typings: constants.TYPES_SECTION_NAME,
+    deployment tools: 'deployment tools',
+    development: 'development',
+    deployment: 'deploy the contracts',
 };
 
 const docsInfoConfig: DocsInfoConfig = {
     id: 'trustlines-network',
     type: SupportedDocJson.TypeDoc,
     displayName: 'Trustlines Network',
-    packageUrl: 'https://github.com/trustlines-network/clientlib',
+    packageUrl: 'https://github.com/trustlines-network/contracts',
     menu: {
         introduction: [docSections.introduction],
-        installation: [docSections.installation],
-        async: [docSections.async],
-        guides: [
-            docSections.userGuide,
-            docSections.trustlineGuide,
-            docSections.transferGuide,
-        ],
-        api: [
-            docSections.tlNetwork,
-            docSections.user,
-            docSections.currencyNetwork,
-            docSections.trustline,
-            docSections.payment,
-            docSections.event,
-            docSections.typings,
+        deployment tools: [docSections.deploymenttools],
+        development: [docSections.development],
+        deployment: [docSections.deployment],
         ],
     },
     sectionNameToMarkdown: {
         [docSections.introduction]: IntroMarkdown,
-        [docSections.installation]: InstallMarkdown,
-        [docSections.async]: AsyncMarkdown,
-        [docSections.userGuide]: UserMarkdown,
-        [docSections.trustlineGuide]: TrustlineMarkdown,
-        [docSections.transferGuide]: TransferMarkdown,
-    },
-    sectionNameToModulePath: {
-        [docSections.tlNetwork]: ['"TLNetwork"'],
-        [docSections.user]: ['"User"'],
-        [docSections.currencyNetwork]: ['"CurrencyNetwork"'],
-        [docSections.trustline]: ['"Trustline"'],
-        [docSections.payment]: ['"Payment"'],
-        [docSections.event]: ['"Event"'],
-        [docSections.typings]: ['"typings"'],
+        [docSections.deploymenttools]: DeploymenttoolsMarkdown,
+        [docSections.development]: DevelopmentMarkdown,
+        [docSections.userGuide]: DeploymentMarkdown,
     },
     menuSubsectionToVersionWhenIntroduced: {},
     sections: docSections,
-    visibleConstructors: [
-        docSections.tlNetwork,
-    ],
-    typeConfigs: {
-        // Note: This needs to be kept in sync with the types exported in index.ts. Unfortunately there is
-        // currently no way to extract the re-exported types from index.ts via TypeDoc :(
-        publicTypes: [
-            // General
-            'TLNetworkConfig',
-            'TLEvent',
-            'Amount',
-            'TLOptions',
-            'TxObject',
-            'EventFilterOptions',
-            // User
-            'UserObject',
-            // Currency Network
-            'Network',
-            'NetworkDetails',
-            'UserOverview',
-            // Trustline
-            'TrustlineObject',
-            // Payment
-            'Payment',
-            'TLTxObject',
-            'PathObject',
-            'PaymentOptions',
-        ],
-        typeNameToExternalLink: {
-            Web3: 'https://github.com/ethereum/wiki/wiki/JavaScript-API',
-            Provider: 'https://github.com/0xProject/web3-typescript-typings/blob/f5bcb96/index.d.ts#L150',
-            BigNumber: 'http://mikemcl.github.io/bignumber.js',
-        },
         typeNameToPrefix: {
             Provider: 'Web3',
-        },
-        typeNameToDocSection: {
-            TLNetwork: docSections.tlNetwork,
-            User: docSections.user,
-            CurrencyNetwork: docSections.currencyNetwork,
-            Trustline: docSections.trustline,
-            Payment: docSections.payment,
-            Event: docSections.event,
         },
     },
 };
