@@ -21,7 +21,7 @@ console.log('Transaction hash: ', txHash)
 ```
 The initiator creates a request where he is willing to **lend** a maximal denomination of `100` to the user with the address `counterpartyAddress` in the currency network with the address `networkAddress`. He also proposes that he is willing to **owe** a maximal denomination of `200` to the counterparty.
 
-#### 2. Accept trustline request
+#### 2. Accepting a trustline request
 In the next step the counterparty has to accept the request. Note that in the example below we assume that the iniated user is the counterparty of step 1.
 ```javascript
 const networkAddress = '0xf8E191d2cd72Ff35CB8F012685A29B31996614EA'
@@ -47,4 +47,4 @@ console.log('Transaction hash: ', txHash)
 ```
 The counterparty of step 1 first fetches all trustline requests in the currency network. The `prepareAccept` function is then called where the attributes `given` and `received` have to be from the point of view of the caller. So in our case the counterparty or receiver of the initial request.
 
-**NOTE: All numerical values have to be provided in their biggest representation. For example if the currency network has two decimals the values have to be in a format like `1.25`.**
+**NOTE: All numerical values have to be provided in their largest unit. For example, if the currency network has two decimals, the values have to be in a format like `1.25`.**
