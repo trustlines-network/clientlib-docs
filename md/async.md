@@ -1,4 +1,4 @@
-This library is a promise-based library. So every asynchronous call will return a native Javascript promise. If an error occurs the library will throw it. The caller has to handle it appropriately. It is up to you if you choose `promise` or `async/await` syntax for calling the methods.
+This library is a [promise-based](https://www.promisejs.org) library. So every asynchronous call will return a native Javascript promise. If an error occurs, the library will throw it. This needs to be handles appropriately by the caller. It is up to you if you choose `promise` or `async/await` syntax for calling methods.
 
 #### Promise syntax
 ```javascript

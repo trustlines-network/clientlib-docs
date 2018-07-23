@@ -18,7 +18,7 @@ $ npm build
 ```
 $ yarn build
 ```
-The command above will create three different sources which you can use depending on your project structure:
+The command above will create three different sources which you can use, depending on your project structure:
 ```
 _bundles/		// UMD bundles
 lib/			// ES5(commonjs) + source + .d.ts

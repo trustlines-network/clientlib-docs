@@ -554,7 +554,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of currency network."
+												"text": "Address of a currency network."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -2756,7 +2756,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of currency network."
+												"text": "Address of a currency network."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -2846,7 +2846,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of sender of transfer."
+												"text": "Address of the sender of a transfer."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -2860,7 +2860,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of receiver of transfer."
+												"text": "Address of the receiver of a transfer."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -2874,7 +2874,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Amount to transfer in biggest unit,\n             i.e. 1.23 if currency network has 2 decimals."
+												"text": "Amount to transfer in the largest unit,\n             e.g. 1.23 if currency network has 2 decimals."
 											},
 											"type": {
 												"type": "union",
@@ -2946,7 +2946,7 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Prepares ethereum transaction object for a trustlines transfer, where loaded user is sender."
+										"shortText": "Prepares ethereum transaction object for a trustlines transfer, where the loaded user is sender."
 									},
 									"parameters": [
 										{
@@ -2970,7 +2970,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of receiver of transfer."
+												"text": "Address of the receiver of a transfer."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -3213,7 +3213,7 @@
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Initiates a new TLNetwork instance that provides the public interface to trustlines-network library."
+								"shortText": "Initiates a new TLNetwork instance that provides the public interface to the trustlines-network library."
 							},
 							"signatures": [
 								{
@@ -3223,7 +3223,7 @@
 									"kindString": "Constructor signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Initiates a new TLNetwork instance that provides the public interface to trustlines-network library."
+										"shortText": "Initiates a new TLNetwork instance that provides the public interface to the trustlines-network library."
 									},
 									"parameters": [
 										{
@@ -3268,7 +3268,7 @@
 								"isPublic": true
 							},
 							"comment": {
-								"shortText": "CurrencyNetwork instance containing all methods for retrieving currency network\nrelated information."
+								"shortText": "Instance containing all methods for retrieving currency network\nrelated information."
 							},
 							"sources": [
 								{
@@ -3293,7 +3293,7 @@
 								"isPublic": true
 							},
 							"comment": {
-								"shortText": "Event instance for retrieving event logs."
+								"shortText": "Instance for retrieving event logs."
 							},
 							"sources": [
 								{
@@ -3318,7 +3318,7 @@
 								"isPublic": true
 							},
 							"comment": {
-								"shortText": "Payment instance containing all methods for creating trustline transfers\nand ETH transfers."
+								"shortText": "Instance containing all methods for creating trustline transfers\nand ETH transfers."
 							},
 							"sources": [
 								{
@@ -3343,7 +3343,7 @@
 								"isPublic": true
 							},
 							"comment": {
-								"shortText": "Trustline instance containing all methods for managing trustlines."
+								"shortText": "Instance containing all methods for managing trustlines."
 							},
 							"sources": [
 								{
@@ -3368,7 +3368,7 @@
 								"isPublic": true
 							},
 							"comment": {
-								"shortText": "User instance containing all user/keystore related methods."
+								"shortText": "Instance containing all user/keystore related methods."
 							},
 							"sources": [
 								{
@@ -4117,7 +4117,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of counterparty of trustline.\n"
+												"text": "Address of a counterparty of a trustline.\n"
 											},
 											"type": {
 												"type": "intrinsic",
@@ -4224,7 +4224,7 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Returns trustline update requests of loaded user in a currency network."
+										"shortText": "Returns trustline update requests of a loaded user in a currency network."
 									},
 									"parameters": [
 										{
@@ -4300,7 +4300,7 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Returns trustline updates of loaded user in a currency network. A update\nhappens when a user accepts a trustline update request."
+										"shortText": "Returns trustline updates of a loaded user in a currency network. An update\nhappens when a user accepts a trustline update request."
 									},
 									"parameters": [
 										{
@@ -4400,7 +4400,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of user who initiated the trustline udpate request."
+												"text": "Address of a user who initiated the trustline update request."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -4414,7 +4414,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Proposed creditline limit given by receiver to initiator,\n             i.e. 1.23 if network has to 2 decimals."
+												"text": "Proposed creditline limit given the by receiver to the initiator,\n             e.g. 1.23 if a network has to 2 decimals."
 											},
 											"type": {
 												"type": "union",
@@ -4437,7 +4437,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Proposed creditline limit received by iniator from receiver,\n                i.e. 1.23 if network has to 2 decimals."
+												"text": "Proposed creditline limit received by the initiator from the receiver,\n                e.g. 1.23 if a network has to 2 decimals."
 											},
 											"type": {
 												"type": "union",
@@ -4509,7 +4509,7 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Prepares an ethereum transaction object for creating a trustline update request. Called by initiator\nof update request."
+										"shortText": "Prepares an ethereum transaction object for creating a trustline update request. Called by the initiator\nof an update request."
 									},
 									"parameters": [
 										{
@@ -4533,7 +4533,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of counterparty who receives trustline update request."
+												"text": "Address of a counterparty which receives trustline update request."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -4547,7 +4547,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Proposed creditline limit given by iniator to counterparty,\n             i.e. 1.23 if network has to 2 decimals."
+												"text": "Proposed creditline limit given by the initiator to the counterparty,\n             e.g. 1.23 if network has to 2 decimals."
 											},
 											"type": {
 												"type": "union",
@@ -4570,7 +4570,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Proposed creditline limit received by iniator from counterparty,\n                i.e. 1.23 if network has to 2 decimals."
+												"text": "Proposed creditline limit received by the initiator from the counterparty,\n                e.g. 1.23 if network has to 2 decimals."
 											},
 											"type": {
 												"type": "union",
@@ -5010,7 +5010,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Name of new user who wants to get onboarded."
+												"text": "Name of a new user who wants to get onboarded."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -5024,7 +5024,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Serialized [eth-lightwallet](https://github.com/ConsenSys/eth-lightwallet)\n                          keystore of new user who wants to get onboarded.\n"
+												"text": "Serialized [eth-lightwallet](https://github.com/ConsenSys/eth-lightwallet)\n                          keystore of a new user who wants to get onboarded.\n"
 											},
 											"type": {
 												"type": "intrinsic",
@@ -5358,7 +5358,7 @@
 											"kindString": "Parameter",
 											"flags": {},
 											"comment": {
-												"text": "Address of new user who wants to get onboarded."
+												"text": "Address of a new user who wants to get onboarded."
 											},
 											"type": {
 												"type": "intrinsic",
