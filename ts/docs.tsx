@@ -35,7 +35,7 @@ const docSections = {
     userGuide: 'create user',
     trustlineGuide: 'set up trustline',
     transferGuide: 'transfer',
-    exchange: 'decentralized exchange',
+    DEX: 'decentralized exchange',
     tlNetwork: 'tlNetwork',
     user: 'user',
     currencyNetwork: 'currencyNetwork',
