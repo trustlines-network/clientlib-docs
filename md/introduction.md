@@ -4,12 +4,12 @@ Check our sequence diagrams to get an idea on the current user flow:
 
 ### Onboarding
 
-[![sequence_onboarding.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/onboarding.png "trustlines user flow onboarding")](http://i.imgur.com/Bd3FhkT.png)
+[![sequence_onboarding.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/onboarding.png "trustlines user flow onboarding")](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/onboarding.png)
 
 ### Credit line update
 
-[![sequence_creditlineupdate.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/creditline.png "trustlines user flow credit line update")](http://i.imgur.com/6ANndDb.png)
+[![sequence_creditlineupdate.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/creditline.png "trustlines user flow credit line update")](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/creditline.png)
 
 ### Payment
 
-[![sequence_payment.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/payment.png "trustlines user flow payment")](http://i.imgur.com/9fpXkyw.png)
+[![sequence_payment.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/payment.png "trustlines user flow payment")](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/payment.png)
