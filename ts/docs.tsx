@@ -59,7 +59,7 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.trustlineGuide,
             docSections.transferGuide,
         ],
-	exchange: [docSections.exchange],
+	DEX: [docSections.DEX],
         api: [
             docSections.tlNetwork,
             docSections.user,
@@ -77,7 +77,7 @@ const docsInfoConfig: DocsInfoConfig = {
         [docSections.userGuide]: UserMarkdown,
         [docSections.trustlineGuide]: TrustlineMarkdown,
         [docSections.transferGuide]: TransferMarkdown,
-        [docSections.exchange]: ExchangeMarkdown,
+        [docSections.DEX]: ExchangeMarkdown,
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
