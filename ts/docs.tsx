@@ -25,15 +25,18 @@ const UserMarkdown = require('md/guides/user');
 const TrustlineMarkdown = require('md/guides/trustline');
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const TransferMarkdown = require('md/guides/transfer');
+// tslint:disable-next-line:no-implicit-dependencies no-var-requires
+const ExchangeMarkdown = require('md/exchange/exchange');
 
 const docSections = {
     introduction: 'introduction',
     installation: 'installation',
     async: 'async',
-    userGuide: 'create user',
-    trustlineGuide: 'set up trustline',
-    transferGuide: 'transfer',
-    tlNetwork: 'tlNetwork',
+    userGuide: 'create a user',
+    trustlineGuide: 'setting up a trustline',
+    transferGuide: 'transfer TL currency',
+    exchange: 'decentralized exchange',
+    tlNetwork: 'TLNetwork',
     user: 'user',
     currencyNetwork: 'currencyNetwork',
     trustline: 'trustline',
@@ -56,6 +59,7 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.trustlineGuide,
             docSections.transferGuide,
         ],
+	exchange: docSections.exchange,
         api: [
             docSections.tlNetwork,
             docSections.user,
@@ -73,6 +77,7 @@ const docsInfoConfig: DocsInfoConfig = {
         [docSections.userGuide]: UserMarkdown,
         [docSections.trustlineGuide]: TrustlineMarkdown,
         [docSections.transferGuide]: TransferMarkdown,
+	[docSections.exchange]: ExchangeMarkdown,
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
