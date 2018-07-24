@@ -32,11 +32,11 @@ const docSections = {
     introduction: 'introduction',
     installation: 'installation',
     async: 'async',
-    userGuide: 'create a user',
-    trustlineGuide: 'setting up a trustline',
-    transferGuide: 'transfer TL currency',
+    userGuide: 'create user',
+    trustlineGuide: 'set up trustline',
+    transferGuide: 'transfer',
     exchange: 'decentralized exchange',
-    tlNetwork: 'TLNetwork',
+    tlNetwork: 'tlNetwork',
     user: 'user',
     currencyNetwork: 'currencyNetwork',
     trustline: 'trustline',
@@ -59,7 +59,7 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.trustlineGuide,
             docSections.transferGuide,
         ],
-	exchange: docSections.exchange,
+	exchange: [docSections.exchange],
         api: [
             docSections.tlNetwork,
             docSections.user,
@@ -77,7 +77,7 @@ const docsInfoConfig: DocsInfoConfig = {
         [docSections.userGuide]: UserMarkdown,
         [docSections.trustlineGuide]: TrustlineMarkdown,
         [docSections.transferGuide]: TransferMarkdown,
-	[docSections.exchange]: ExchangeMarkdown,
+        [docSections.exchange]: ExchangeMarkdown,
     },
     sectionNameToModulePath: {
         [docSections.tlNetwork]: ['"TLNetwork"'],
@@ -185,3 +185,4 @@ export class Docs extends React.Component<DocsProps, DocsState> {
         return sourceUrl;
     }
 }
+
