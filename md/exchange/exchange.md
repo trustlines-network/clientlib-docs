@@ -13,16 +13,20 @@ const makerTokenAddress = '0xf8E191d2cd72Ff35CB8F012685A29B31996614EA'
 const takerTokenAddress = '0xcE2D6f8bc55A61428D32947bC9Bc7F2DE1640B18'
 // Options when making an order
 const options = {
-    // If the decimals of the maker token are known, they can be provided here
+    // If the decimals of the maker token are known, they can be provided
+    // here
     makerTokenDecimals: 2,
-    // If the decimals of the taker token are known, they can be provided here
+    // If the decimals of the taker token are known, they can be provided
+    // here
     takerTokenDecimals: 2,
     // If the order should expire, the expiration date can be specified here
     expirationUnixTimestampSec: 2524604400
 }
-// NOTE: Decimals have to be provided if the token is NOT a trustlines currency.
+// NOTE: Decimals have to be manually if the token is NOT a trustlines
+//       currency.
 
-// NOTE: This is NOT an on-chain transaction. The order is signed by the initiated user and stored on the relay server.
+// NOTE: This is NOT an on-chain transaction. The order is signed
+//       by the initiated user and stored on the relay server.
 const order = await tlNetwork.exchange.makeOrder(
     exchangeAdress,
     makerTokenAddress,
@@ -42,9 +46,11 @@ const baseTokenAddress = '0xf8E191d2cd72Ff35CB8F012685A29B31996614EA'
 const quoteTokenAddress = '0xcE2D6f8bc55A61428D32947bC9Bc7F2DE1640B18'
 // Options when fetching the orderbook
 const options = {
-    // If the decimals of the base token are known, they can be provided here
+    // If the decimals of the base token are known, they can be provided
+    // here
     baseTokenDecimals: 2,
-    // If the decimals of the quote token are known, they can be provided here
+    // If the decimals of the quote token are known, they can be provided
+    // here
     quoteTokenDecimals: 2
 }
 // NOTE: Decimals have to be provided if the token is NOT a currency network
@@ -89,17 +95,21 @@ Only if there is a path in both the maker and taker token, above order can be fi
 ```javascript
 // Options when taking an order
 const options = {
-    // If the decimals of the maker token are known, they can be provided here
+    // If the decimals of the maker token are known, they can be provided
+    // here
     makerTokenDecimals: 2,
-    // If the decimals of the taker token are known, they can be provided here
+    // If the decimals of the taker token are known, they can be provided
+    // here
     takerTokenDecimals: 2
 }
 // NOTE: Decimals have to be provided if the token is NOT a currency network
 
-// Taker (initiating user) has to prepare an on-chain transaction to fill an order
+// Taker (initiating user) has to prepare an on-chain transaction to fill an
+// order
 const txObj = await tlNetwork.exchange.prepTakeOrder(
     orderToFill,
-    // We assume that the taker wants to exchange `5` taker tokens against maker tokens
+    // We assume that the taker wants to exchange `5` taker tokens against
+    // maker tokens
     5,
     options
 )

@@ -42,6 +42,8 @@ const docSections = {
     trustline: 'trustline',
     payment: 'payment',
     event: 'event',
+    ethWrapper: 'ethWrapper',
+    exchange: 'exchange',
     typings: constants.TYPES_SECTION_NAME,
 };
 
@@ -58,8 +60,8 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.userGuide,
             docSections.trustlineGuide,
             docSections.transferGuide,
+            docSections.DEX,
         ],
-	DEX: [docSections.DEX],
         api: [
             docSections.tlNetwork,
             docSections.user,
@@ -67,6 +69,8 @@ const docsInfoConfig: DocsInfoConfig = {
             docSections.trustline,
             docSections.payment,
             docSections.event,
+            docSections.ethWrapper,
+            docSections.exchange,
             docSections.typings,
         ],
     },
@@ -86,6 +90,8 @@ const docsInfoConfig: DocsInfoConfig = {
         [docSections.trustline]: ['"Trustline"'],
         [docSections.payment]: ['"Payment"'],
         [docSections.event]: ['"Event"'],
+        [docSections.ethWrapper]: ['"EthWrapper"'],
+        [docSections.exchange]: ['"Exchange"'],
         [docSections.typings]: ['"typings"'],
     },
     menuSubsectionToVersionWhenIntroduced: {},
@@ -185,4 +191,3 @@ export class Docs extends React.Component<DocsProps, DocsState> {
         return sourceUrl;
     }
 }
-
