@@ -11,7 +11,7 @@ import {
     TypeDocNode,
 } from '@0xproject/react-docs';
 
-import * as v0TypeDocJson from './json/0.1.0.json';
+import * as v0TypeDocJson from './json/0.2.0.json';
 
 // tslint:disable-next-line:no-implicit-dependencies no-var-requires
 const IntroMarkdown = require('md/introduction');
@@ -144,7 +144,7 @@ const docsInfoConfig: DocsInfoConfig = {
 };
 const docsInfo = new DocsInfo(docsInfoConfig);
 
-const availableVersions = ['0.0.1'];
+const availableVersions = ['0.2.0'];
 const versionToDocJSON: { [semver: string]: object } = {
     [availableVersions[0]]: v0TypeDocJson,
 };
