@@ -3,39 +3,39 @@
  * Source: https://davidwalsh.name/osx-overflow
  */
 ::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 4px;
-    height: 2px;
+  -webkit-appearance: none;
+  width: 4px;
+  height: 2px;
 }
 ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
 #documentation {
+  p {
+    line-height: 1.5;
+  }
+
+  a {
+    color: #1d5cde; // linkBlue
+  }
+
+  .comment {
     p {
-        line-height: 1.5;
+      margin: 0px;
     }
+  }
 
-    a {
-        color: #1d5cde; // linkBlue
-    }
-
-    .comment {
-        p {
-            margin: 0px;
-        }
-    }
-
-    .typeTooltip {
-        border: 1px solid lightgray;
-        opacity: 1;
-    }
+  .typeTooltip {
+    border: 1px solid lightgray;
+    opacity: 1;
+  }
 }
 
 code {
-    border: 1px solid #e3eefe;
-    font-family: 'Roboto Mono';
-    background-color: #f2f6ff !important; // lightBlue
+  border: 1px solid #e3eefe;
+  font-family: "Roboto Mono";
+  background-color: #f2f6ff !important; // lightBlue
 }
