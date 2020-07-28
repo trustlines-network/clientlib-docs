@@ -1,15 +1,17 @@
-Welcome to the trustlines-network clientlib documentation! The trustlines-network clientlib is a Javascript library which enables you to interact with the trustlines-network protocol. This documentation intends to help the reader to get an overview on the existing features. At the current stage the library provides features such as establishing and managing trustlines, doing trustline and ETH transfers, retrieving information about currency networks and more.
+# Trustlines Clientlib
 
-Check our sequence diagrams to get an idea on the current user flow:
+[![npm](https://img.shields.io/npm/v/trustlines-clientlib.svg)](https://www.npmjs.com/package/trustlines-clientlib)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/trustlines-protocol/clientlib/master.svg)](https://circleci.com/gh/trustlines-protocol/clientlib)
+[![Codecov branch](https://img.shields.io/codecov/c/github/trustlines-protocol/clientlib/master.svg)](https://codecov.io/gh/trustlines-protocol/clientlib)
+[![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/trustlines/community)
 
-### Onboarding
+The clientlib is a component of the [Trustlines Protocol](https://trustlines.foundation/protocol.html).
+The Trustlines Protocol is a set of rules to allow the transfer of value on top of existing trust
+relationships stored on a trustless infrastructure, here a blockchain.
 
-[![sequence_onboarding.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/onboarding.png "trustlines user flow onboarding")](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/onboarding_2000p.png)
+In the technology stack, the clientlib is located on top of a [relay server](https://github.com/trustlines-protocol/relay),
+and a mobile application can be built on top of it.
 
-### Credit line update
-
-[![sequence_creditlineupdate.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/creditline.png "trustlines user flow credit line update")](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/creditline_2000p.png)
-
-### Payment
-
-[![sequence_payment.png](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/payment.png "trustlines user flow payment")](https://raw.githubusercontent.com/trustlines-network/clientlib-docs/master/media/payment_2000p.png)
+The goal of the clientlib is to provide a user focused means to interact with Trustlines via a relay server.
+It also provides a means to handle the wallet and key for the user.
+The intent is to make it as easy as possible to build a user interface for Trustlines on top of it.
